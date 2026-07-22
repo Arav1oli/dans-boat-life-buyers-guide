@@ -15,7 +15,7 @@ from pydantic import BaseModel, EmailStr, Field
 
 from .config import settings
 from .db import connection
-from .engine import score_boats
+from .engine import normalise_answers, score_boats
 from .mailer import send_email
 
 
@@ -169,7 +169,7 @@ def save_decision(public_id: UUID, decision: DecisionIn, x_resume_token: str = H
 @app.post("/api/sessions/{public_id}/complete")
 def complete_session(public_id: UUID, details: CompleteIn, x_resume_token: str = Header()):
     session = require_session(public_id, x_resume_token)
-    answers = current_answers(session["id"])
+    answers = normalise_answers(current_answers(session["id"]))
     results = score_boats(answers)
     resume_url = f"{settings.public_guide_url}?session={session['public_id']}#token={x_resume_token}"
     lines = [
