@@ -1,0 +1,389 @@
+<!doctype html>
+<html lang="en-AU" data-wf-site="69661da1a62c04a206d31ec8" data-wf-page="6984efde0b694db786227206">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Have a proper yarn with Dan before you buy your next boat. Join the waitlist and help shape his straight-up boat buyer's guide.">
+  <meta name="theme-color" content="#5ce2e7">
+  <title>The Boat Buyer's Guide — Dan's Boat Life</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&amp;family=Genos:wght@500;600;700&amp;display=swap" rel="stylesheet">
+  <script>document.documentElement.className += ' w-mod-js';</script>
+  <style>
+    :root {
+      --aqua: #5ce2e7;
+      --black: #111111;
+      --white: #fff;
+      --paper: #ffffff;
+      --soft: #e7e7e7;
+      --mid: #cecece;
+      --grey: #5f5f5f;
+      --line: #c8c8c8;
+      --radius: 4px;
+      --shadow: 0 16px 42px rgba(0,0,0,.09);
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--black);
+      background: var(--white);
+      font-family: "Arimo", Arial, sans-serif;
+      line-height: 1.55;
+    }
+    img { display: block; max-width: 100%; }
+    a { color: inherit; }
+    button, input, select, textarea { font: inherit; }
+
+    .wrap { width: min(1180px, calc(100% - 40px)); margin: 0 auto; }
+    .topbar {
+      position: relative;
+      min-height: 104px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+    }
+    .brand { position: absolute; left: 50%; top: 0; z-index: 3; display: flex; align-items: center; text-decoration: none; transform: translateX(-50%); }
+    .brand img { width: 104px; height: 104px; }
+    .brand span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+    .mini-link { font-weight: 700; text-underline-offset: 4px; }
+    .topbar::before { content: "☰"; font-size: 32px; line-height: 1; }
+
+    .hero {
+      background: var(--white);
+      color: var(--black);
+      overflow: hidden;
+    }
+    .hero-grid {
+      min-height: 670px;
+      display: grid;
+      grid-template-columns: 1.08fr .92fr;
+      align-items: stretch;
+    }
+    .hero-copy {
+      padding: 82px 70px 80px max(24px, calc((100vw - 1180px) / 2));
+      background: var(--soft);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .eyebrow {
+      margin: 0 0 22px;
+      display: inline-block;
+      width: fit-content;
+      padding: 9px 12px;
+      background: var(--aqua);
+      color: var(--black);
+      font: 700 18px/1 "Genos", sans-serif;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+    h1, h2, h3 { font-family: "Genos", sans-serif; line-height: .98; margin-top: 0; }
+    h1 { max-width: 760px; margin-bottom: 26px; font-size: clamp(56px, 6.7vw, 92px); letter-spacing: -.04em; }
+    h1 em { font-style: normal; text-decoration: underline; text-decoration-color: var(--aqua); text-decoration-thickness: .18em; text-underline-offset: .05em; }
+    .lead { max-width: 680px; margin: 0 0 34px; color: #4e4e4e; font-size: 21px; line-height: 1.55; }
+    .actions { display: flex; flex-wrap: wrap; gap: 14px; align-items: center; }
+    .button {
+      display: inline-flex;
+      min-height: 56px;
+      padding: 0 25px;
+      align-items: center;
+      justify-content: center;
+      border: 2px solid var(--aqua);
+      border-radius: 8px;
+      background: var(--aqua);
+      color: var(--black);
+      font-weight: 800;
+      text-decoration: none;
+      cursor: pointer;
+      transition: transform .18s ease, background .18s ease;
+    }
+    .button:hover { transform: translateY(-2px); background: #7cebee; }
+    .button.secondary { background: transparent; color: var(--black); border-color: var(--black); }
+    .button.secondary:hover { border-color: var(--aqua); background: var(--white); }
+    .trust { margin: 25px 0 0; color: #666; font-size: 14px; }
+
+    .hero-photo { position: relative; min-height: 580px; background: var(--aqua); }
+    .hero-photo img { width: 100%; height: 100%; object-fit: cover; object-position: center 25%; filter: saturate(.82) contrast(1.04); }
+    .hero-photo::after { content: ""; position: absolute; inset: 0; border-left: 10px solid var(--aqua); pointer-events: none; }
+    .photo-tag {
+      position: absolute;
+      z-index: 1;
+      right: 22px;
+      bottom: 22px;
+      max-width: 300px;
+      padding: 17px 19px;
+      background: var(--aqua);
+      color: var(--black);
+      font-weight: 700;
+      box-shadow: var(--shadow);
+    }
+
+    .proof { background: var(--mid); }
+    .proof-grid { display: grid; grid-template-columns: repeat(3, 1fr); }
+    .proof-item { padding: 30px 34px; border-right: 1px solid rgba(0,0,0,.22); }
+    .proof-item:last-child { border-right: 0; }
+    .proof-item strong { display: block; margin-bottom: 5px; font: 700 28px/1 "Genos", sans-serif; }
+    .proof-item span { font-size: 14px; }
+
+    .guide { padding: 100px 0; }
+    .section-grid { display: grid; grid-template-columns: .88fr 1.12fr; gap: 90px; align-items: start; }
+    .guide-card {
+      position: sticky;
+      top: 24px;
+      min-height: 480px;
+      padding: 42px;
+      overflow: hidden;
+      border: 1px solid rgba(0,0,0,.14);
+      border-radius: var(--radius);
+      background: var(--aqua);
+      box-shadow: var(--shadow);
+    }
+    .guide-card::after { content: ""; position: absolute; width: 280px; height: 280px; right: -90px; bottom: -90px; border: 46px solid rgba(0,0,0,.10); border-radius: 50%; }
+    .guide-card small { display: block; margin-bottom: 100px; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
+    .guide-card h2 { position: relative; z-index: 1; max-width: 410px; margin-bottom: 22px; font-size: clamp(56px, 6vw, 82px); letter-spacing: -.04em; }
+    .guide-card p { position: relative; z-index: 1; max-width: 360px; margin: 0; font-size: 18px; font-weight: 600; }
+
+    .section-copy h2 { margin-bottom: 24px; font-size: clamp(48px, 5vw, 72px); letter-spacing: -.035em; }
+    .section-copy > p { max-width: 650px; color: var(--grey); font-size: 19px; }
+    .checklist { display: grid; gap: 13px; margin: 35px 0 0; padding: 0; list-style: none; }
+    .checklist li { display: grid; grid-template-columns: 32px 1fr; gap: 14px; padding: 18px 0; border-top: 1px solid var(--line); font-size: 17px; font-weight: 600; }
+    .checklist b { display: grid; width: 30px; height: 30px; place-items: center; border-radius: 50%; background: var(--aqua); color: var(--black); }
+
+    .quote { margin-top: 42px; padding: 31px; border-left: 7px solid var(--aqua); background: var(--soft); }
+    .quote p { margin: 0 0 12px; font: 600 25px/1.25 "Genos", sans-serif; }
+    .quote span { color: var(--grey); font-weight: 700; }
+
+    .waitlist { padding: 96px 0; border-top: 12px solid var(--aqua); background: var(--soft); color: var(--black); }
+    .form-layout { display: grid; grid-template-columns: .8fr 1.2fr; gap: 70px; align-items: start; }
+    .form-intro { position: sticky; top: 24px; }
+    .form-intro h2 { margin-bottom: 25px; font-size: clamp(54px, 6vw, 84px); letter-spacing: -.04em; }
+    .form-intro p { max-width: 450px; color: #4f4f4f; font-size: 19px; }
+    .number { display: inline-grid; width: 62px; height: 62px; margin-bottom: 22px; place-items: center; border: 2px solid var(--black); border-radius: 50%; background: var(--aqua); color: var(--black); font: 700 26px/1 "Genos", sans-serif; }
+    .commitment { max-width: 450px; margin-top: 30px; padding: 22px; border-left: 6px solid var(--aqua); background: var(--white); }
+    .commitment strong { font: 700 22px/1.1 "Genos", sans-serif; }
+    .commitment p { margin: 9px 0 0; font-size: 15px; }
+
+    .form-shell { padding: 38px; border-radius: var(--radius); background: var(--white); color: var(--black); }
+    .form-shell h3 { margin-bottom: 28px; font-size: 38px; letter-spacing: -.02em; }
+    .field-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+    .field { margin-bottom: 20px; }
+    .field.full { grid-column: 1 / -1; }
+    label { display: block; margin-bottom: 8px; font-weight: 800; }
+    .hint { color: var(--grey); font-size: 13px; font-weight: 400; }
+    input, select, textarea {
+      width: 100%;
+      min-height: 52px;
+      padding: 13px 14px;
+      border: 1px solid #b9b9b9;
+      border-radius: 7px;
+      background: #fff;
+      color: var(--black);
+      outline: none;
+    }
+    textarea { min-height: 112px; resize: vertical; }
+    input:focus, select:focus, textarea:focus { border-color: var(--black); box-shadow: 0 0 0 3px var(--aqua); }
+    .form-footer { display: flex; align-items: center; gap: 18px; margin-top: 8px; }
+    .form-footer .button { border: 0; flex: 0 0 auto; }
+    .form-footer p { margin: 0; color: var(--grey); font-size: 13px; }
+    .status { display: none; margin-top: 22px; padding: 18px; border-radius: 8px; }
+    .status.success { display: block; background: #dff8f0; color: #07583f; }
+    .status.error { display: block; background: #ffe1e1; color: #8e1717; }
+    .w-form-done, .w-form-fail { margin-top: 22px; padding: 18px; border-radius: 8px; }
+    .w-form-done { background: #dff8f0; color: #07583f; }
+    .w-form-fail { background: #ffe1e1; color: #8e1717; }
+    .w-form-done p, .w-form-fail p { margin: 0; }
+
+    footer { padding: 34px 0; border-top: 6px solid var(--aqua); background: var(--white); }
+    .footer-inner { display: flex; justify-content: space-between; gap: 24px; align-items: center; }
+    footer p { margin: 0; font-size: 14px; }
+    footer a { font-weight: 800; text-underline-offset: 4px; }
+
+    @media (max-width: 900px) {
+      .hero-grid, .section-grid, .form-layout { grid-template-columns: 1fr; }
+      .hero-copy { padding: 70px 24px; }
+      .hero-photo { min-height: 560px; }
+      .proof-grid { grid-template-columns: 1fr; }
+      .proof-item { border-right: 0; border-bottom: 1px solid rgba(0,0,0,.22); }
+      .proof-item:last-child { border-bottom: 0; }
+      .section-grid, .form-layout { gap: 50px; }
+      .guide-card, .form-intro { position: static; }
+      .guide-card small { margin-bottom: 70px; }
+    }
+    @media (max-width: 620px) {
+      .wrap { width: min(100% - 28px, 1180px); }
+      .topbar { min-height: 76px; }
+      .brand img { width: 50px; height: 50px; }
+      .brand span { display: none; }
+      .mini-link { font-size: 14px; }
+      .hero-copy { padding: 58px 18px 65px; }
+      h1 { font-size: 57px; }
+      .lead { font-size: 18px; }
+      .actions { align-items: stretch; flex-direction: column; }
+      .button { width: 100%; }
+      .hero-photo { min-height: 480px; }
+      .photo-tag { left: 14px; right: 14px; bottom: 14px; max-width: none; }
+      .guide, .waitlist { padding: 70px 0; }
+      .guide-card { min-height: 430px; padding: 30px; }
+      .guide-card h2 { font-size: 58px; }
+      .field-grid { grid-template-columns: 1fr; gap: 0; }
+      .field.full { grid-column: auto; }
+      .form-shell { padding: 25px 20px; }
+      .form-footer, .footer-inner { align-items: stretch; flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+  <header class="wrap topbar">
+    <a class="brand" href="https://dansboatlife.com" aria-label="Dan's Boat Life home">
+      <img src="assets/logo.png" alt="Dan's Boat Life logo">
+      <span>Dan's Boat Life</span>
+    </a>
+    <a class="mini-link" href="#waitlist">Yep, put me on the list →</a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">G'day, boat buyers</p>
+          <h1>Before you buy the boat, <em>let's have a proper yarn.</em></h1>
+          <p class="lead">I'm Dan. I spent 16 years selling new boats, then quit so I could talk about them without a conflict of interest. Now I'm putting together the buyer's guide I reckon should exist—straight up, useful and built around the questions you blokes are actually asking.</p>
+          <div class="actions">
+            <a class="button" href="#waitlist">Yep, put me on the list</a>
+            <a class="button secondary" href="#inside">What's this about?</a>
+          </div>
+          <p class="trust">Free guide. No sales agenda. You'll get it first when I've actually finished the thing.</p>
+        </div>
+        <div class="hero-photo">
+          <img src="assets/dan.png" alt="Dan from Dan's Boat Life at a boat show">
+          <div class="photo-tag">“If it floats, I'm into it.”</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="proof" aria-label="Why trust Dan">
+      <div class="wrap proof-grid">
+        <div class="proof-item"><strong>16 years</strong><span>selling new boats before walking away from the conflict</span></div>
+        <div class="proof-item"><strong>Nearly 30 years</strong><span>boating around Sydney—power, sail, paddle, you name it</span></div>
+        <div class="proof-item"><strong>Straight up</strong><span>no scripts, no sales agenda and no factory spin</span></div>
+      </div>
+    </section>
+
+    <section class="guide" id="inside">
+      <div class="wrap section-grid">
+        <article class="guide-card" aria-label="Guide cover preview">
+          <small>Still being built—that's the point</small>
+          <h2>A Boat Buyer's Guide</h2>
+          <p>The straight-up stuff I'd tell a mate before he met the dealer.</p>
+        </article>
+
+        <div class="section-copy">
+          <p class="eyebrow">Give me a steer</p>
+          <h2>Here's what I reckon should go in it.</h2>
+          <p>I've spent a fair chunk of my life around boats and boat buyers. The same questions come up again and again—usually after someone's stared at twelve brochures and everything has started to sound exactly the same. This guide is meant to cut through that.</p>
+          <ul class="checklist">
+            <li><b>1</b><span>Work out what you actually need before the shiny options distract you</span></li>
+            <li><b>2</b><span>Read the brochure without swallowing every line of it</span></li>
+            <li><b>3</b><span>Know what to look for on the walkthrough and sea trial</span></li>
+            <li><b>4</b><span>Ask the dealer the questions that actually matter</span></li>
+            <li><b>5</b><span>Understand the compromises before they turn into expensive surprises</span></li>
+          </ul>
+          <blockquote class="quote">
+            <p>“I quit selling new boats so I didn't have a conflict of interest. I just want to be straight up and genuine.”</p>
+            <span>— Dan, Dan's Boat Life</span>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section class="waitlist" id="waitlist">
+      <div class="wrap form-layout">
+        <div class="form-intro">
+          <span class="number">→</span>
+          <h2>Righto. What do you want help with?</h2>
+          <p>Tell me what you've got, what you're looking at and what you'd actually like to understand before you buy. Your answers will shape what goes into the guide.</p>
+          <div class="commitment">
+            <strong>Consider this Dan's public commitment.</strong>
+            <p>The more of you who put your hand up, the harder it gets for me to keep talking about this guide instead of sitting down and making the thing.</p>
+          </div>
+        </div>
+
+        <div class="form-shell w-form">
+          <h3>Put your hand up for the guide</h3>
+          <form id="guide-waitlist-form" name="Boat Buyers Guide Waitlist" data-name="Boat Buyers Guide Waitlist" method="get" data-wf-page-id="6984efde0b694db786227206" data-wf-element-id="87b5c6c8-78ce-5bdc-e6be-689f4531bdc0" data-turnstile-sitekey="0x4AAAAAAAQTptj2So4dx43e">
+            <div class="field-grid">
+              <div class="field">
+                <label for="name">Your name</label>
+                <input id="name" name="Name" type="text" autocomplete="name" required>
+              </div>
+              <div class="field">
+                <label for="email">Best email</label>
+                <input id="email" name="Email" type="email" autocomplete="email" required>
+              </div>
+              <div class="field">
+                <label for="phone">Phone number</label>
+                <input id="phone" name="Phone" type="tel" autocomplete="tel" required>
+              </div>
+              <div class="field">
+                <label for="timing">How close are you to buying?</label>
+                <select id="timing" name="Buying timeline" required>
+                  <option value="">Choose one</option>
+                  <option>Right now</option>
+                  <option>Within 3 months</option>
+                  <option>3–6 months</option>
+                  <option>6–12 months</option>
+                  <option>More than a year away</option>
+                  <option>Just researching</option>
+                </select>
+              </div>
+              <div class="field full">
+                <label for="current-boat">What are you running now? <span class="hint">(Boat, make/model—or “nothing yet”)</span></label>
+                <input id="current-boat" name="Current boat" type="text" placeholder="e.g. 2018 Jeanneau Merry Fisher 895" required>
+              </div>
+              <div class="field full">
+                <label for="next-boat">What boats have caught your eye?</label>
+                <input id="next-boat" name="Looking to buy" type="text" placeholder="e.g. 35–40 ft family cruiser; comparing three models" required>
+              </div>
+              <div class="field full">
+                <label for="takeaway">If this guide could answer one thing for you, what would it be?</label>
+                <textarea id="takeaway" name="Guide takeaway" placeholder="Give Dan the question, decision or headache you want help with…" required></textarea>
+              </div>
+            </div>
+            <div class="form-footer">
+              <button class="button" type="submit" data-wait="Joining…">Yep, put me on the list</button>
+              <p>No rubbish. No sales calls. Just the guide and the odd useful update from me.</p>
+            </div>
+          </form>
+          <div class="w-form-done" style="display:none">
+            <p>Legend—you're on the list. Thanks for giving me a steer. You'll be one of the first to get the guide.</p>
+          </div>
+          <div class="w-form-fail" style="display:none">
+            <p>Something went wrong. Please try again.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer-inner">
+      <p>© <span id="year"></span> Dan's Boat Life. Straight up, genuine and independent.</p>
+      <a href="https://dansboatlife.com/boat-buyers">Back to Dan's Boat Life</a>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+  </script>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.prod.website-files.com/69661da1a62c04a206d31ec8/js/webflow.schunk.36b8fb49256177c8.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.prod.website-files.com/69661da1a62c04a206d31ec8/js/webflow.schunk.ff560088e0bd9e74.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.prod.website-files.com/69661da1a62c04a206d31ec8/js/webflow.schunk.1b578c479528fa0d.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.prod.website-files.com/69661da1a62c04a206d31ec8/js/webflow.b18ee8f5.93bf8a8fb0d9a728.js" crossorigin="anonymous"></script>
+</body>
+</html>
