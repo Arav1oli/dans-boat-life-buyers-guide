@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en-AU" data-wf-site="69661da1a62c04a206d31ec8" data-wf-page="6984efde0b694db786227206">
+<html lang="en-AU">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,7 +9,6 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&amp;family=Exo:ital,wght@0,500;0,600;0,700;0,800;1,500&amp;display=swap" rel="stylesheet">
-  <script>document.documentElement.className += ' w-mod-js';</script>
   <style>
     :root {
       --aqua: #5ce2e7;
@@ -153,10 +152,12 @@
     input:focus, select:focus, textarea:focus { border-color: var(--ink); box-shadow: 0 0 0 3px var(--aqua); }
     .form-footer { display: flex; align-items: center; gap: 18px; margin-top: 21px; }
     .form-footer p { margin: 0; color: var(--grey); font-size: 13px; }
-    .w-form-done, .w-form-fail { display: none; margin-top: 20px; padding: 17px; }
-    .w-form-done { background: #dff8f0; color: #07583f; }
-    .w-form-fail { background: #ffe1e1; color: #8e1717; }
-    .w-form-done p, .w-form-fail p { margin: 0; }
+    .form-message { margin-top: 20px; padding: 17px; }
+    .form-message[hidden] { display: none; }
+    .form-success { background: #dff8f0; color: #07583f; }
+    .form-error { background: #ffe1e1; color: #8e1717; }
+    .form-message p { margin: 0; }
+    .button:disabled { cursor: wait; opacity: .65; transform: none; }
 
     footer { padding: 30px 0; border-top: 5px solid var(--aqua); }
     .footer-inner { display: flex; justify-content: space-between; gap: 22px; align-items: center; }
@@ -242,17 +243,21 @@
           <p>Tell me what you own, what you are considering and what you would like help understanding. Your answers will guide what goes into it, and you will be one of the first to receive it.</p>
         </div>
 
-        <div class="form-shell w-form">
+        <div class="form-shell">
           <h3>Your details</h3>
-          <form id="guide-waitlist-form" name="Boat Buyers Guide Waitlist" data-name="Boat Buyers Guide Waitlist" method="get" data-wf-page-id="6984efde0b694db786227206" data-wf-element-id="87b5c6c8-78ce-5bdc-e6be-689f4531bdc0" data-turnstile-sitekey="0x4AAAAAAAQTptj2So4dx43e">
+          <form id="guide-waitlist-form" action="https://formsubmit.co/ajax/adrian@flagshipinternational.com.au" method="post">
+            <input type="hidden" name="_subject" value="New Dan's Boat Life buyer's guide waitlist lead">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true" style="display:none">
             <div class="field-grid">
               <div class="field">
                 <label for="name">Name</label>
-                <input id="name" name="Name" type="text" autocomplete="name" required>
+                <input id="name" name="name" type="text" autocomplete="name" required>
               </div>
               <div class="field">
                 <label for="email">Email</label>
-                <input id="email" name="Email" type="email" autocomplete="email" required>
+                <input id="email" name="email" type="email" autocomplete="email" required>
               </div>
               <div class="field">
                 <label for="phone">Phone</label>
@@ -284,14 +289,14 @@
               </div>
             </div>
             <div class="form-footer">
-              <button class="button" type="submit" data-wait="Joining...">Join the waitlist</button>
+              <button class="button" type="submit">Join the waitlist</button>
               <p>No spam and no sales calls. Just the guide and useful updates from Dan.</p>
             </div>
           </form>
-          <div class="w-form-done">
+          <div id="form-success" class="form-message form-success" role="status" aria-live="polite" hidden>
             <p>Thank you. You are on the list and will be one of the first to receive the guide.</p>
           </div>
-          <div class="w-form-fail">
+          <div id="form-error" class="form-message form-error" role="alert" hidden>
             <p>Something went wrong. Please try again.</p>
           </div>
         </div>
@@ -306,11 +311,48 @@
     </div>
   </footer>
 
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
-  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js" crossorigin="anonymous"></script>
-  <script src="https://cdn.prod.website-files.com/69661da1a62c04a206d31ec8/js/webflow.schunk.36b8fb49256177c8.js" crossorigin="anonymous"></script>
-  <script src="https://cdn.prod.website-files.com/69661da1a62c04a206d31ec8/js/webflow.schunk.ff560088e0bd9e74.js" crossorigin="anonymous"></script>
-  <script src="https://cdn.prod.website-files.com/69661da1a62c04a206d31ec8/js/webflow.schunk.1b578c479528fa0d.js" crossorigin="anonymous"></script>
-  <script src="https://cdn.prod.website-files.com/69661da1a62c04a206d31ec8/js/webflow.b18ee8f5.93bf8a8fb0d9a728.js" crossorigin="anonymous"></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    const form = document.getElementById('guide-waitlist-form');
+    const submitButton = form.querySelector('button[type="submit"]');
+    const successMessage = document.getElementById('form-success');
+    const errorMessage = document.getElementById('form-error');
+
+    form.addEventListener('submit', async (event) => {
+      event.preventDefault();
+      successMessage.hidden = true;
+      errorMessage.hidden = true;
+      submitButton.disabled = true;
+      submitButton.textContent = 'Joining...';
+
+      try {
+        const formData = new FormData(form);
+        const payload = Object.fromEntries(formData.entries());
+        const response = await fetch(form.action, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json'
+          },
+          body: JSON.stringify(payload)
+        });
+        const result = await response.json();
+
+        if (!response.ok || result.success === false || result.success === 'false') {
+          throw new Error(result.message || 'Submission failed');
+        }
+
+        form.reset();
+        successMessage.hidden = false;
+        successMessage.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      } catch (error) {
+        errorMessage.hidden = false;
+      } finally {
+        submitButton.disabled = false;
+        submitButton.textContent = 'Join the waitlist';
+      }
+    });
+  </script>
 </body>
 </html>
