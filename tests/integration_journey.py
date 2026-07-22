@@ -38,11 +38,15 @@ assert "&token=" not in created["resume_url"]
 decisions = {
     "country": ("AU", "Australia"),
     "water": ("offshore", "Offshore"),
+    "priority": ("exploring", "Exploring"),
+    "mission_detail": ("all-weather-exploring", "All-weather passages"),
     "overnight": ("required", "Yes, it is essential"),
+    "sleeping_people": ("2", "One or two"),
+    "overnight_duration": ("weekend", "A weekend"),
+    "overnight_facilities": ("basic", "A practical berth"),
     "people": ("4", "Three or four"),
     "helm": ("enclosed", "Fully enclosed"),
     "storage": ("marina", "Marina berth"),
-    "priority": ("exploring", "Exploring"),
     "length": ("30-34", "30-34 feet"),
     "budget": ("unsure", "Not sure yet"),
     "condition": ("either", "Either"),
@@ -112,7 +116,7 @@ with psycopg.connect(DATABASE_URL) as conn:
         (session_id,),
     ).fetchone()
 
-assert row == (12, 11, 5, 1, 15)
+assert row == (16, 15, len(restored["results"]), 1, 19)
 print(json.dumps({
     "session": session_id,
     "decision_revisions": row[0],

@@ -8,7 +8,7 @@ This repository contains the buyer-guide waitlist, the first responsive Adventur
 - `/guide/` - conversational Adventure Boat Finder with a visible editable decision trail.
 - `/api/` - FastAPI session, decision, result, resume and email endpoints when the backend is deployed.
 
-The static guide remains reviewable on GitHub Pages. It clearly reports preview mode when the database API is unavailable; it never claims progress or email has been saved when it has not.
+The static guide remains reviewable on GitHub Pages. If the free API is waking up, answers remain on screen and the guide retries the secure connection before completion; it never claims progress or email has been saved when it has not.
 
 ## Local production-shaped run
 
@@ -54,6 +54,8 @@ After transcript ingestion, build the corpus-wide category and decision-field ca
 
 This resolves the 398 real boat videos to 209 canonical boats and stores transcript-evidenced specifications, features, mission tags and overlapping category candidates. Every observation retains its video, timestamp, short excerpt, qualifier and confidence. A missing tag remains unknown; optional or conflicting configurations are not converted into a false yes/no. The workshop paper is in BOAT_TAXONOMY_WORKSHOP.md.
 
+Regenerate the complete tag review files with `PYTHONPATH=. python -m etl.export_tag_audit`. `BOAT_TAG_AUDIT.csv` contains every tag and evidence row; `BOAT_TAGS_BY_BOAT.csv` is the one-row-per-boat view. Review flags identify comparison context, multiple configurations and suspicious numbers that the buyer guide must not treat as reliable hard facts.
+
 ## Sold-boat data safety
 
 The existing BoatWizard/YachtWorld SQLite file is opened with `mode=ro`, `immutable=1` and `PRAGMA query_only = ON`. The build never scrapes BoatWizard again and never writes to this source. Only controlled model/region aggregates belong in the guide database; sales representative contact fields are excluded.
@@ -74,4 +76,4 @@ Completion always writes an `email_outbox` record first. When Resend or SMTP is 
 
 Render runs the SQL migrations before each deploy. The public guide already targets the Blueprint service name at `https://dans-boat-life-guide-api.onrender.com`; until that service exists it falls back honestly to preview mode. If Render requires a different service name, update `guide/config.js` to the assigned origin. The free Render service sleeps after inactivity, so the first request after a quiet period can take about a minute. Render blocks outbound SMTP ports on free services; the Resend HTTPS path is therefore preferred.
 
-GitHub Actions repeats the production-shaped checks on every pull request and every push to `main`: unit tests, JavaScript syntax, Python compilation, all PostgreSQL migrations and the complete session, decision-edit, secure-resume, shortlist and email-outbox journey.
+GitHub Actions repeats the production-shaped checks on every pull request and every push to `main`: unit tests, JavaScript syntax, Python compilation, all PostgreSQL migrations and the complete session, decision-edit, secure-resume, shortlist and email-outbox journey. Recommendation tests also exercise 2,880 meaningful combinations so unrelated briefs cannot collapse to one popular shortlist.
