@@ -73,3 +73,5 @@ Completion always writes an `email_outbox` record first. When Resend or SMTP is 
 - `SMTP_FROM`: a sender on a domain verified in Resend.
 
 Render runs the SQL migrations before each deploy. After the service has a stable `onrender.com` URL, set `guide/config.js` `apiBase` to that origin and republish GitHub Pages. The free Render service sleeps after inactivity, so the first request after a quiet period can take about a minute. Render blocks outbound SMTP ports on free services; the Resend HTTPS path is therefore preferred.
+
+GitHub Actions repeats the production-shaped checks on every pull request and every push to `main`: unit tests, JavaScript syntax, Python compilation, all PostgreSQL migrations and the complete session, decision-edit, secure-resume, shortlist and email-outbox journey.

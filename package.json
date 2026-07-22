@@ -2,7 +2,9 @@
   "name": "dans-boat-life-guide",
   "private": true,
   "scripts": {
-    "test:postgres": "node tests/postgres-integration.mjs"
+    "check:guide": "node --check guide/app.js",
+    "start:test-db": "node tests/pglite-server.mjs",
+    "test:unit": "python3 -m pytest -q"
   },
   "devDependencies": {
     "@electric-sql/pglite": "0.4.5",

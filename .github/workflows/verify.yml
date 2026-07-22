@@ -1,0 +1,86 @@
+name: Verify Adventure Boat Finder
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      DATABASE_URL: postgresql://postgres:postgres@127.0.0.1:55432/postgres?sslmode=disable
+      PUBLIC_GUIDE_URL: http://127.0.0.1:8001/guide/
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10
+          run_install: false
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: pnpm
+
+      - name: Install dependencies
+        run: |
+          python -m pip install -r requirements.txt pytest
+          pnpm install --frozen-lockfile
+
+      - name: Run unit and browser-code checks
+        run: |
+          pnpm test:unit
+          pnpm check:guide
+          python -m compileall -q backend etl tests
+
+      - name: Start PostgreSQL-compatible test database
+        run: |
+          pnpm start:test-db > /tmp/pglite.log 2>&1 &
+          for attempt in {1..30}; do
+            python - <<'PY' && break
+          import os
+          import psycopg
+
+          with psycopg.connect(os.environ["DATABASE_URL"]):
+              pass
+          PY
+            sleep 1
+          done
+          python - <<'PY'
+          import os
+          import psycopg
+
+          with psycopg.connect(os.environ["DATABASE_URL"]) as connection:
+              assert connection.execute("SELECT 1").fetchone()[0] == 1
+          PY
+
+      - name: Apply all PostgreSQL migrations
+        run: python -m backend.init_db
+
+      - name: Start API and run the full buyer journey
+        run: |
+          uvicorn backend.main:app --host 127.0.0.1 --port 8001 > /tmp/api.log 2>&1 &
+          for attempt in {1..30}; do
+            curl --fail --silent http://127.0.0.1:8001/api/health && break
+            sleep 1
+          done
+          curl --fail --silent http://127.0.0.1:8001/api/health
+          python tests/integration_journey.py
+
+      - name: Show service logs on failure
+        if: failure()
+        run: |
+          test -f /tmp/pglite.log && cat /tmp/pglite.log || true
+          test -f /tmp/api.log && cat /tmp/api.log || true
