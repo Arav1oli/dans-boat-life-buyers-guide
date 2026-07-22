@@ -21,7 +21,7 @@ Generated from the two supplied Dan's Boat Life power-boat playlists.
 - Non-boat playlist outliers: 3
 - Low-confidence identities accepted for publication: 0
 - Canonical make/model groups with walkthrough and test-drive evidence: 171
-- Walkthrough-only canonical groups: 24
+- Walkthrough-only canonical groups: 25
 - Test-drive-only canonical groups: 13
 
 No video is automatically publishable unless it has a complete identity and an identity confidence of at least 0.84. The launch catalogue applies a second gate requiring an explicit make/model mention and a transcript for every linked source video.
