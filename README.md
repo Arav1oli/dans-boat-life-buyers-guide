@@ -62,4 +62,14 @@ Sold and listed prices remain separate. `sold_price_aud` and `sold_price_origina
 
 ## Email delivery
 
-Completion always writes an `email_outbox` record first. When SMTP environment variables are configured, the API sends the buyer their answers, shortlist, reasons and private resume URL. If SMTP is unavailable, the message remains queued and the interface says so rather than reporting a false success.
+Completion always writes an `email_outbox` record first. When Resend or SMTP is configured, the API sends the buyer their answers, shortlist, reasons and private resume URL. If delivery is unavailable, the message remains queued and the interface says so rather than reporting a false success.
+
+## Free review deployment
+
+`render.yaml` defines a free Render web service for the FastAPI application. Use a separate Neon PostgreSQL project so the database does not expire with Render's 30-day free database limit. The Render Blueprint prompts for these values and never stores them in Git:
+
+- `DATABASE_URL`: the pooled Neon connection string.
+- `RESEND_API_KEY`: a restricted Resend sending key.
+- `SMTP_FROM`: a sender on a domain verified in Resend.
+
+Render runs the SQL migrations before each deploy. After the service has a stable `onrender.com` URL, set `guide/config.js` `apiBase` to that origin and republish GitHub Pages. The free Render service sleeps after inactivity, so the first request after a quiet period can take about a minute. Render blocks outbound SMTP ports on free services; the Resend HTTPS path is therefore preferred.
