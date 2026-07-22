@@ -1,0 +1,962 @@
+[
+  {
+    "make": "Sargo",
+    "model": "28",
+    "full_name": "Sargo 28",
+    "length_feet": 28,
+    "features": {
+      "berths": 2,
+      "day_capacity": 7,
+      "helm": "enclosed",
+      "trailerable": false,
+      "use": "coastal-offshore",
+      "priorities": [
+        "exploring",
+        "family",
+        "mixed-use"
+      ]
+    },
+    "evidence_confidence": 0.85,
+    "audience_percentile": 0.7451,
+    "market_percentile": 0.9333,
+    "watch_out": "The enclosed, purposeful layout gives up some of the open entertaining space found on day boats.",
+    "thumbnail": "https://i.ytimg.com/vi/dBlL3uhwcxg/hqdefault.jpg",
+    "videos": [
+      {
+        "type": "Walkthrough",
+        "id": "dBlL3uhwcxg",
+        "title": "The Mighty Little Explorer - Sargo 28"
+      },
+      {
+        "type": "Test drive",
+        "id": "AIFykW7Q6UU",
+        "title": "Waves - Fuel Burn - Handling on the Sargo 28"
+      }
+    ],
+    "market": {
+      "period_months": 120,
+      "global_sold_count": 20,
+      "median_sold_price_aud": 300299.0,
+      "average_days_on_market": 161.55555555555554,
+      "australia_sold_count": 0,
+      "price_basis": "sold_price_aud"
+    },
+    "engagement": {
+      "views": 86902,
+      "comments": 81,
+      "top_comments_captured": 81
+    },
+    "evidence": [
+      {
+        "topic": "overnight_capability",
+        "start_seconds": 1586,
+        "excerpt": "…a similar amount of accommodation available to to the Sargo, maybe the Nimbus 305. Um but just Sargo,…",
+        "video_id": "AIFykW7Q6UU",
+        "url": "https://www.youtube.com/watch?v=AIFykW7Q6UU&t=1586s"
+      },
+      {
+        "topic": "social_space",
+        "start_seconds": 613,
+        "excerpt": "…is actually also the galley. So if you pop this up, boom, boom. This is a twoburner diesel…",
+        "video_id": "dBlL3uhwcxg",
+        "url": "https://www.youtube.com/watch?v=dBlL3uhwcxg&t=613s"
+      }
+    ]
+  },
+  {
+    "make": "Sargo",
+    "model": "45",
+    "full_name": "Sargo 45",
+    "length_feet": 45,
+    "features": {
+      "berths": 6,
+      "day_capacity": 10,
+      "helm": "enclosed",
+      "trailerable": false,
+      "use": "offshore",
+      "priorities": [
+        "exploring",
+        "family",
+        "mixed-use"
+      ]
+    },
+    "evidence_confidence": 0.85,
+    "audience_percentile": 0.9581,
+    "market_percentile": 0.2,
+    "watch_out": "A serious offshore platform brings substantially more size, systems and ownership cost.",
+    "thumbnail": "https://i.ytimg.com/vi/qtSn8sfeSBI/hqdefault.jpg",
+    "videos": [
+      {
+        "type": "Walkthrough",
+        "id": "qtSn8sfeSBI",
+        "title": "A Boat for Serious Boaters - The Sargo 45"
+      },
+      {
+        "type": "Test drive",
+        "id": "msCELOAmCbU",
+        "title": "Waves - Fuel Burn - Handling on the Sargo 45"
+      }
+    ],
+    "market": {
+      "period_months": 120,
+      "global_sold_count": 0,
+      "median_sold_price_aud": null,
+      "average_days_on_market": null,
+      "australia_sold_count": 0,
+      "price_basis": "sold_price_aud"
+    },
+    "engagement": {
+      "views": 289209,
+      "comments": 100,
+      "top_comments_captured": 100
+    },
+    "evidence": [
+      {
+        "topic": "overnight_capability",
+        "start_seconds": 1245,
+        "excerpt": "…I think you could sleep whilst doing 24 knots in the ocean through waves in that aft cabin…",
+        "video_id": "msCELOAmCbU",
+        "url": "https://www.youtube.com/watch?v=msCELOAmCbU&t=1245s"
+      },
+      {
+        "topic": "range_efficiency",
+        "start_seconds": 2099,
+        "excerpt": "…mind. Obviously consider the range and consider where you are in the world. But if you actually want…",
+        "video_id": "qtSn8sfeSBI",
+        "url": "https://www.youtube.com/watch?v=qtSn8sfeSBI&t=2099s"
+      }
+    ]
+  },
+  {
+    "make": "Quarken",
+    "model": "27 Cabin",
+    "full_name": "Quarken 27 Cabin",
+    "length_feet": 27,
+    "features": {
+      "berths": 2,
+      "day_capacity": 7,
+      "helm": "enclosed",
+      "trailerable": true,
+      "use": "coastal-offshore",
+      "priorities": [
+        "exploring",
+        "fishing",
+        "mixed-use"
+      ]
+    },
+    "evidence_confidence": 0.85,
+    "audience_percentile": 0.4858,
+    "market_percentile": 0.8,
+    "watch_out": "The offset cabin arrangement is distinctive and should be walked through before deciding it suits your movement around the boat.",
+    "thumbnail": "https://i.ytimg.com/vi/A0Qo_iP2xPw/hqdefault.jpg",
+    "videos": [
+      {
+        "type": "Walkthrough",
+        "id": "A0Qo_iP2xPw",
+        "title": "Quarken 27 Cabin - Does the offset layout work?"
+      },
+      {
+        "type": "Test drive",
+        "id": "uSxsWpCpmiM",
+        "title": "Quarken 27 Cabin Test Drive in the OCEAN"
+      }
+    ],
+    "market": {
+      "period_months": 120,
+      "global_sold_count": 8,
+      "median_sold_price_aud": 254965.5,
+      "average_days_on_market": 255.875,
+      "australia_sold_count": 0,
+      "price_basis": "sold_price_aud"
+    },
+    "engagement": {
+      "views": 42647,
+      "comments": 43,
+      "top_comments_captured": 43
+    },
+    "evidence": [
+      {
+        "topic": "family_access",
+        "start_seconds": 1237,
+        "excerpt": "…or winter keep your family dry and just expand your horizons dry and just expand your horizons does…",
+        "video_id": "A0Qo_iP2xPw",
+        "url": "https://www.youtube.com/watch?v=A0Qo_iP2xPw&t=1237s"
+      },
+      {
+        "topic": "handling",
+        "start_seconds": 73,
+        "excerpt": "…18 knots I'm going into the waves right now fuel flow of 51 l I've got the trim…",
+        "video_id": "uSxsWpCpmiM",
+        "url": "https://www.youtube.com/watch?v=uSxsWpCpmiM&t=73s"
+      }
+    ]
+  },
+  {
+    "make": "Quarken",
+    "model": "35 Sport Tourer",
+    "full_name": "Quarken 35 Sport Tourer",
+    "length_feet": 35,
+    "features": {
+      "berths": 2,
+      "day_capacity": 10,
+      "helm": "protected",
+      "trailerable": false,
+      "use": "coastal-offshore",
+      "priorities": [
+        "family",
+        "watersports",
+        "mixed-use"
+      ]
+    },
+    "evidence_confidence": 0.85,
+    "audience_percentile": 0.3332,
+    "market_percentile": 0.2,
+    "watch_out": "It mixes adventure capability with social space; buyers wanting a fully enclosed helm should look at a cabin alternative.",
+    "thumbnail": "https://i.ytimg.com/vi/jl4y-Up6djE/hqdefault.jpg",
+    "videos": [
+      {
+        "type": "Walkthrough",
+        "id": "jl4y-Up6djE",
+        "title": "REPLACEMENT for.... Discover the Quarken 35 Sport Tourer - Part 1"
+      },
+      {
+        "type": "Test drive",
+        "id": "KPB5EYSyx84",
+        "title": "Pt 2 - Waves & Parking DEMO - Quarken 35 Sport Tourer TEST"
+      }
+    ],
+    "market": {
+      "period_months": 120,
+      "global_sold_count": 0,
+      "median_sold_price_aud": null,
+      "average_days_on_market": null,
+      "australia_sold_count": 0,
+      "price_basis": "sold_price_aud"
+    },
+    "engagement": {
+      "views": 27966,
+      "comments": 49,
+      "top_comments_captured": 49
+    },
+    "evidence": [
+      {
+        "topic": "social_space",
+        "start_seconds": 165,
+        "excerpt": "…benefit of essentially more seating up the front although the seating on the front of this one's pretty…",
+        "video_id": "KPB5EYSyx84",
+        "url": "https://www.youtube.com/watch?v=KPB5EYSyx84&t=165s"
+      },
+      {
+        "topic": "weather_protection",
+        "start_seconds": 462,
+        "excerpt": "…lights to builds to windscreen wipers all accessible there we've got this hard plastic it feels like hard…",
+        "video_id": "jl4y-Up6djE",
+        "url": "https://www.youtube.com/watch?v=jl4y-Up6djE&t=462s"
+      }
+    ]
+  },
+  {
+    "make": "Saxdor",
+    "model": "320 GTC",
+    "full_name": "Saxdor 320 GTC",
+    "length_feet": 32,
+    "features": {
+      "berths": 2,
+      "day_capacity": 9,
+      "helm": "enclosed",
+      "trailerable": false,
+      "use": "coastal-offshore",
+      "priorities": [
+        "family",
+        "exploring",
+        "mixed-use"
+      ]
+    },
+    "evidence_confidence": 0.85,
+    "audience_percentile": 0.3651,
+    "market_percentile": 1.0,
+    "watch_out": "The enclosed GTC format is a different proposition from Saxdor's open GTO models; be clear about weather protection versus open-air use.",
+    "thumbnail": "https://i.ytimg.com/vi/ZFmsJBLbkGc/hqdefault.jpg",
+    "videos": [
+      {
+        "type": "Walkthrough",
+        "id": "ZFmsJBLbkGc",
+        "title": "Buy 320 GTC NOW... or wait for 340 GTWA? Saxdor 320 GTC Walkthrough - Part 1"
+      },
+      {
+        "type": "Test drive",
+        "id": "RWGPhqUbPww",
+        "title": "Tested! Saxdor 320 GTC - Sea Trial in Mallorca - Part 2"
+      }
+    ],
+    "market": {
+      "period_months": 120,
+      "global_sold_count": 25,
+      "median_sold_price_aud": 335518.0,
+      "average_days_on_market": 228.12,
+      "australia_sold_count": 0,
+      "price_basis": "sold_price_aud"
+    },
+    "engagement": {
+      "views": 32192,
+      "comments": 51,
+      "top_comments_captured": 51
+    },
+    "evidence": [
+      {
+        "topic": "handling",
+        "start_seconds": 332,
+        "excerpt": "…drive actively when you're maneuvering an adventure hole. Because we're a lighter boat, we're not using our weight…",
+        "video_id": "RWGPhqUbPww",
+        "url": "https://www.youtube.com/watch?v=RWGPhqUbPww&t=332s"
+      },
+      {
+        "topic": "family_access",
+        "start_seconds": 313,
+        "excerpt": "…And definitely for a family, you're going to have good comfortable day trips. If you got mom, dad,…",
+        "video_id": "ZFmsJBLbkGc",
+        "url": "https://www.youtube.com/watch?v=ZFmsJBLbkGc&t=313s"
+      }
+    ]
+  },
+  {
+    "make": "Saxdor",
+    "model": "340 GTWA",
+    "full_name": "Saxdor 340 GTWA",
+    "length_feet": 34,
+    "features": {
+      "berths": 2,
+      "day_capacity": 9,
+      "helm": "enclosed",
+      "trailerable": false,
+      "use": "coastal-offshore",
+      "priorities": [
+        "family",
+        "exploring",
+        "mixed-use"
+      ]
+    },
+    "evidence_confidence": 0.85,
+    "audience_percentile": 0.5671,
+    "market_percentile": 0.4667,
+    "watch_out": "Newer models have less sold-market history, so the market confidence is lower than the video evidence confidence.",
+    "thumbnail": "https://i.ytimg.com/vi/vhNIpnQP78o/hqdefault.jpg",
+    "videos": [
+      {
+        "type": "Walkthrough",
+        "id": "vhNIpnQP78o",
+        "title": "Best in class? Saxdor 340 GTWA pack's in a LOT of features."
+      },
+      {
+        "type": "Test drive",
+        "id": "2JMin4bt_co",
+        "title": "How does she perform? Saxdor 340 GTWA Tested"
+      }
+    ],
+    "market": {
+      "period_months": 120,
+      "global_sold_count": 1,
+      "median_sold_price_aud": 491002.0,
+      "average_days_on_market": 139.0,
+      "australia_sold_count": 0,
+      "price_basis": "sold_price_aud"
+    },
+    "engagement": {
+      "views": 59207,
+      "comments": 50,
+      "top_comments_captured": 50
+    },
+    "evidence": [
+      {
+        "topic": "family_access",
+        "start_seconds": 319,
+        "excerpt": "…to have a good safe walk around, which we do. And then you can access by sliding this…",
+        "video_id": "vhNIpnQP78o",
+        "url": "https://www.youtube.com/watch?v=vhNIpnQP78o&t=319s"
+      },
+      {
+        "topic": "offshore_capability",
+        "start_seconds": 967,
+        "excerpt": "…to take this boat offshore and beat up a few waves, particularly with the twin engine redundancy. Um,…",
+        "video_id": "2JMin4bt_co",
+        "url": "https://www.youtube.com/watch?v=2JMin4bt_co&t=967s"
+      }
+    ]
+  },
+  {
+    "make": "XO",
+    "model": "DFNDR 8",
+    "full_name": "XO DFNDR 8",
+    "length_feet": 26,
+    "features": {
+      "berths": 2,
+      "day_capacity": 6,
+      "helm": "enclosed",
+      "trailerable": true,
+      "use": "offshore",
+      "priorities": [
+        "exploring",
+        "fishing",
+        "mixed-use"
+      ]
+    },
+    "evidence_confidence": 0.85,
+    "audience_percentile": 0.2329,
+    "market_percentile": 0.6667,
+    "watch_out": "It is a focused, rugged package rather than a soft-edged family entertainer.",
+    "thumbnail": "https://i.ytimg.com/vi/THflbBzWyHs/hqdefault.jpg",
+    "videos": [
+      {
+        "type": "Walkthrough",
+        "id": "THflbBzWyHs",
+        "title": "2021 XO DFNDR 8 - Detailed Walkthrough with Dan Jones"
+      },
+      {
+        "type": "Test drive",
+        "id": "9VZt_ccx39E",
+        "title": "What's she like in the OCEAN? XO DFNDR 8 - Single Mercury 300Hp V8"
+      }
+    ],
+    "market": {
+      "period_months": 120,
+      "global_sold_count": 2,
+      "median_sold_price_aud": 155484.0,
+      "average_days_on_market": 103.5,
+      "australia_sold_count": 0,
+      "price_basis": "sold_price_aud"
+    },
+    "engagement": {
+      "views": 21881,
+      "comments": 16,
+      "top_comments_captured": 16
+    },
+    "evidence": [
+      {
+        "topic": "handling",
+        "start_seconds": 218,
+        "excerpt": "…give me a more comfortable ride but just for the purpose of the exercise I'll sew it down…",
+        "video_id": "9VZt_ccx39E",
+        "url": "https://www.youtube.com/watch?v=9VZt_ccx39E&t=218s"
+      },
+      {
+        "topic": "range_efficiency",
+        "start_seconds": 429,
+        "excerpt": "…of rope and fender arrangement holders just there you know i can even see people putting extra fuel…",
+        "video_id": "THflbBzWyHs",
+        "url": "https://www.youtube.com/watch?v=THflbBzWyHs&t=429s"
+      }
+    ]
+  },
+  {
+    "make": "XO",
+    "model": "DSCVR 9 T-Top",
+    "full_name": "XO DSCVR 9 T-Top",
+    "length_feet": 30,
+    "features": {
+      "berths": 0,
+      "day_capacity": 9,
+      "helm": "open",
+      "trailerable": false,
+      "use": "coastal-offshore",
+      "priorities": [
+        "fishing",
+        "watersports",
+        "exploring"
+      ]
+    },
+    "evidence_confidence": 0.85,
+    "audience_percentile": 0.3057,
+    "market_percentile": 0.2,
+    "watch_out": "This is a day-focused T-top; it should not survive an overnight or fully enclosed-helm requirement.",
+    "thumbnail": "https://i.ytimg.com/vi/5cRvxg5HEmk/hqdefault.jpg",
+    "videos": [
+      {
+        "type": "Walkthrough",
+        "id": "5cRvxg5HEmk",
+        "title": "Discovering the XO DSCVR 9 T-Top!"
+      },
+      {
+        "type": "Test drive",
+        "id": "n2PPCH0oexo",
+        "title": "XO DSCVR 9 T-Top - TEST Drive with V10 400Hp"
+      }
+    ],
+    "market": {
+      "period_months": 120,
+      "global_sold_count": 0,
+      "median_sold_price_aud": null,
+      "average_days_on_market": null,
+      "australia_sold_count": 0,
+      "price_basis": "sold_price_aud"
+    },
+    "engagement": {
+      "views": 28853,
+      "comments": 35,
+      "top_comments_captured": 35
+    },
+    "evidence": [
+      {
+        "topic": "offshore_capability",
+        "start_seconds": 542,
+        "excerpt": "…you're bouncing around some rough water. Smooth edges here, smooth, soft padding, rounded grab holds, so it feels…",
+        "video_id": "5cRvxg5HEmk",
+        "url": "https://www.youtube.com/watch?v=5cRvxg5HEmk&t=542s"
+      },
+      {
+        "topic": "handling",
+        "start_seconds": 632,
+        "excerpt": "…waves engine trim down turning hard to the right increase power see this feels good that holds you…",
+        "video_id": "n2PPCH0oexo",
+        "url": "https://www.youtube.com/watch?v=n2PPCH0oexo&t=632s"
+      }
+    ]
+  },
+  {
+    "make": "Wellcraft",
+    "model": "355",
+    "full_name": "Wellcraft 355",
+    "length_feet": 35,
+    "features": {
+      "berths": 2,
+      "day_capacity": 10,
+      "helm": "protected",
+      "trailerable": false,
+      "use": "offshore",
+      "priorities": [
+        "fishing",
+        "family",
+        "exploring"
+      ]
+    },
+    "evidence_confidence": 0.85,
+    "audience_percentile": 0.9152,
+    "market_percentile": 0.8667,
+    "watch_out": "Its centre-console roots and performance focus will not suit buyers prioritising a fully enclosed saloon.",
+    "thumbnail": "https://i.ytimg.com/vi/167AMX8YtOU/hqdefault.jpg",
+    "videos": [
+      {
+        "type": "Walkthrough",
+        "id": "167AMX8YtOU",
+        "title": "WATCH before you buy a CENTRE CONSOLE! The Wellcraft 355"
+      },
+      {
+        "type": "Test drive",
+        "id": "KreIDfMbQU0",
+        "title": "OFFSHORE TEST - Wellcraft 355 could change the way you boat!"
+      }
+    ],
+    "market": {
+      "period_months": 120,
+      "global_sold_count": 10,
+      "median_sold_price_aud": 725360.5,
+      "average_days_on_market": 372.44444444444446,
+      "australia_sold_count": 0,
+      "price_basis": "sold_price_aud"
+    },
+    "engagement": {
+      "views": 379415,
+      "comments": 97,
+      "top_comments_captured": 97
+    },
+    "evidence": [
+      {
+        "topic": "handling",
+        "start_seconds": 1298,
+        "excerpt": "…best you'd be going through waves and this here was all fiberglass or some solid material so immediately…",
+        "video_id": "167AMX8YtOU",
+        "url": "https://www.youtube.com/watch?v=167AMX8YtOU&t=1298s"
+      },
+      {
+        "topic": "overnight_capability",
+        "start_seconds": 299,
+        "excerpt": "…go and have an overnight and out of the islands or maybe you're in Florida and you want…",
+        "video_id": "KreIDfMbQU0",
+        "url": "https://www.youtube.com/watch?v=KreIDfMbQU0&t=299s"
+      }
+    ]
+  },
+  {
+    "make": "Jeanneau",
+    "model": "Merry Fisher 795 Sport S2",
+    "full_name": "Jeanneau Merry Fisher 795 Sport S2",
+    "length_feet": 26,
+    "features": {
+      "berths": 2,
+      "day_capacity": 8,
+      "helm": "enclosed",
+      "trailerable": true,
+      "use": "coastal-offshore",
+      "priorities": [
+        "fishing",
+        "family",
+        "exploring"
+      ]
+    },
+    "evidence_confidence": 0.85,
+    "audience_percentile": 0.7995,
+    "market_percentile": 0.4667,
+    "watch_out": "Compact dimensions create practical compromises in accommodation and social space.",
+    "thumbnail": "https://i.ytimg.com/vi/LEOWkv5GJ0E/hqdefault.jpg",
+    "videos": [
+      {
+        "type": "Walkthrough",
+        "id": "LEOWkv5GJ0E",
+        "title": "Jeanneau’s answer to Adventure Boats? Merry Fisher 795 Sport S2 Walkthrough"
+      },
+      {
+        "type": "Test drive",
+        "id": "BLdD91-MeYQ",
+        "title": "Ok to drive offshore?? Jeanneau Merry Fisher 795 Sport S2 - Offshore & Inshore Test Drive"
+      }
+    ],
+    "market": {
+      "period_months": 120,
+      "global_sold_count": 1,
+      "median_sold_price_aud": 184780.0,
+      "average_days_on_market": 18.0,
+      "australia_sold_count": 0,
+      "price_basis": "sold_price_aud"
+    },
+    "engagement": {
+      "views": 106877,
+      "comments": 97,
+      "top_comments_captured": 97
+    },
+    "evidence": [
+      {
+        "topic": "range_efficiency",
+        "start_seconds": 721,
+        "excerpt": "…this boat at a fuel burn of 39 liters you know considering your overall capacity that's considering your…",
+        "video_id": "BLdD91-MeYQ",
+        "url": "https://www.youtube.com/watch?v=BLdD91-MeYQ&t=721s"
+      },
+      {
+        "topic": "social_space",
+        "start_seconds": 894,
+        "excerpt": "…a look at the social space in there but see this how clever you can be doing things…",
+        "video_id": "LEOWkv5GJ0E",
+        "url": "https://www.youtube.com/watch?v=LEOWkv5GJ0E&t=894s"
+      }
+    ]
+  },
+  {
+    "make": "Flipper",
+    "model": "900 ST",
+    "full_name": "Flipper 900 ST",
+    "length_feet": 30,
+    "features": {
+      "berths": 2,
+      "day_capacity": 9,
+      "helm": "protected",
+      "trailerable": false,
+      "use": "coastal-offshore",
+      "priorities": [
+        "family",
+        "watersports",
+        "mixed-use"
+      ]
+    },
+    "evidence_confidence": 0.85,
+    "audience_percentile": 0.7457,
+    "market_percentile": 0.6667,
+    "watch_out": "Buyers wanting a hard, fully enclosed wheelhouse should compare this against cabin-led adventure boats.",
+    "thumbnail": "https://i.ytimg.com/vi/3MrYB-RPxyk/hqdefault.jpg",
+    "videos": [
+      {
+        "type": "Walkthrough",
+        "id": "3MrYB-RPxyk",
+        "title": "WATCH THIS Before you buy an Adventure Boat! - Flipper 900ST Walkthrough - Part 1"
+      },
+      {
+        "type": "Test drive",
+        "id": "-HWI25JEFMU",
+        "title": "Should you upgrade your Adventure Boat to this Flipper 900ST? - Part 2 - Test Drive"
+      }
+    ],
+    "market": {
+      "period_months": 120,
+      "global_sold_count": 2,
+      "median_sold_price_aud": 325008.0,
+      "average_days_on_market": 668.5,
+      "australia_sold_count": 0,
+      "price_basis": "sold_price_aud"
+    },
+    "engagement": {
+      "views": 128877,
+      "comments": 75,
+      "top_comments_captured": 75
+    },
+    "evidence": [
+      {
+        "topic": "overnight_capability",
+        "start_seconds": 805,
+        "excerpt": "…pit water for the weekend and just stay on station there for a couple of days or visit…",
+        "video_id": "3MrYB-RPxyk",
+        "url": "https://www.youtube.com/watch?v=3MrYB-RPxyk&t=805s"
+      },
+      {
+        "topic": "handling",
+        "start_seconds": 406,
+        "excerpt": "…fine now let's go into the waves notice that I'm doing all of this from the sitting position…",
+        "video_id": "-HWI25JEFMU",
+        "url": "https://www.youtube.com/watch?v=-HWI25JEFMU&t=406s"
+      }
+    ]
+  },
+  {
+    "make": "Nimbus",
+    "model": "C11",
+    "full_name": "Nimbus C11",
+    "length_feet": 40,
+    "features": {
+      "berths": 4,
+      "day_capacity": 12,
+      "helm": "enclosed",
+      "trailerable": false,
+      "use": "offshore",
+      "priorities": [
+        "family",
+        "exploring",
+        "mixed-use"
+      ]
+    },
+    "evidence_confidence": 0.85,
+    "audience_percentile": 0.7098,
+    "market_percentile": 0.6667,
+    "watch_out": "The size and twin-engine systems move this well beyond entry-level adventure-boat running costs.",
+    "thumbnail": "https://i.ytimg.com/vi/UOmd3Mt6B1I/hqdefault.jpg",
+    "videos": [
+      {
+        "type": "Walkthrough",
+        "id": "UOmd3Mt6B1I",
+        "title": "2022 Nimbus C11 - Detailed WALKTHROUGH & Review with Dan Jones"
+      },
+      {
+        "type": "Test drive",
+        "id": "lAF1vzEwB2o",
+        "title": "Offshore PERFECTION? Nimbus C11 TEST with V10 400Hp Mercury Outboards"
+      }
+    ],
+    "market": {
+      "period_months": 120,
+      "global_sold_count": 2,
+      "median_sold_price_aud": 740819.5,
+      "average_days_on_market": 736.0,
+      "australia_sold_count": 0,
+      "price_basis": "sold_price_aud"
+    },
+    "engagement": {
+      "views": 75847,
+      "comments": 70,
+      "top_comments_captured": 70
+    },
+    "evidence": [
+      {
+        "topic": "family_access",
+        "start_seconds": 1974,
+        "excerpt": "…you it feels good easy access to all the plumbing storage for cleaning gear nice single stainless steel…",
+        "video_id": "UOmd3Mt6B1I",
+        "url": "https://www.youtube.com/watch?v=UOmd3Mt6B1I&t=1974s"
+      },
+      {
+        "topic": "range_efficiency",
+        "start_seconds": 997,
+        "excerpt": "…I can see a fuel burn of 55 L aside sitting at a steady 4,300 revs and I'm…",
+        "video_id": "lAF1vzEwB2o",
+        "url": "https://www.youtube.com/watch?v=lAF1vzEwB2o&t=997s"
+      }
+    ]
+  },
+  {
+    "make": "Nimbus",
+    "model": "W11",
+    "full_name": "Nimbus W11",
+    "length_feet": 40,
+    "features": {
+      "berths": 4,
+      "day_capacity": 12,
+      "helm": "protected",
+      "trailerable": false,
+      "use": "coastal-offshore",
+      "priorities": [
+        "family",
+        "watersports",
+        "mixed-use"
+      ]
+    },
+    "evidence_confidence": 0.85,
+    "audience_percentile": 0.7366,
+    "market_percentile": 0.4667,
+    "watch_out": "The open weekender layout prioritises social use over the all-weather protection of the C11.",
+    "thumbnail": "https://i.ytimg.com/vi/BTSQvDo-bqY/hqdefault.jpg",
+    "videos": [
+      {
+        "type": "Walkthrough",
+        "id": "BTSQvDo-bqY",
+        "title": "PREPARE to be IMPRESSED! Nimbus W11 Boat Tour - Part 1"
+      },
+      {
+        "type": "Test drive",
+        "id": "ovN1byMhgqE",
+        "title": "Part 2 - Are V10 400Hp the PERFECT match for the Nimbus W11..?"
+      }
+    ],
+    "market": {
+      "period_months": 120,
+      "global_sold_count": 1,
+      "median_sold_price_aud": 790822.0,
+      "average_days_on_market": 9.0,
+      "australia_sold_count": 0,
+      "price_basis": "sold_price_aud"
+    },
+    "engagement": {
+      "views": 154047,
+      "comments": 70,
+      "top_comments_captured": 70
+    },
+    "evidence": [
+      {
+        "topic": "social_space",
+        "start_seconds": 459,
+        "excerpt": "…at the amount of seating we have around us here so I'm going to one 2 3 4…",
+        "video_id": "BTSQvDo-bqY",
+        "url": "https://www.youtube.com/watch?v=BTSQvDo-bqY&t=459s"
+      },
+      {
+        "topic": "handling",
+        "start_seconds": 335,
+        "excerpt": "…bit of movement there through the waves I'm hoping the safety's on",
+        "video_id": "ovN1byMhgqE",
+        "url": "https://www.youtube.com/watch?v=ovN1byMhgqE&t=335s"
+      }
+    ]
+  },
+  {
+    "make": "Saxdor",
+    "model": "400 GTS",
+    "full_name": "Saxdor 400 GTS",
+    "length_feet": 40,
+    "features": {
+      "berths": 2,
+      "day_capacity": 12,
+      "helm": "open",
+      "trailerable": false,
+      "use": "coastal-offshore",
+      "priorities": [
+        "family",
+        "watersports",
+        "mixed-use"
+      ]
+    },
+    "evidence_confidence": 0.85,
+    "audience_percentile": 0.5272,
+    "market_percentile": 0.4667,
+    "watch_out": "The GTS is an open, social interpretation; do not confuse it with the weather protection of a GTC-type boat.",
+    "thumbnail": "https://i.ytimg.com/vi/g-92X4uxSM0/hqdefault.jpg",
+    "videos": [
+      {
+        "type": "Walkthrough",
+        "id": "g-92X4uxSM0",
+        "title": "The Saxdor you’ve been waiting for! Saxdor 400 GTS"
+      },
+      {
+        "type": "Test drive",
+        "id": "sThX23SNQaI",
+        "title": "Speed - Waves - Parking Demo - Saxdor 400 GTS"
+      }
+    ],
+    "market": {
+      "period_months": 120,
+      "global_sold_count": 1,
+      "median_sold_price_aud": 762717.0,
+      "average_days_on_market": 89.0,
+      "australia_sold_count": 0,
+      "price_basis": "sold_price_aud"
+    },
+    "engagement": {
+      "views": 44176,
+      "comments": 63,
+      "top_comments_captured": 63
+    },
+    "evidence": [
+      {
+        "topic": "family_access",
+        "start_seconds": 1773,
+        "excerpt": "…that that's it. Those side doors, they are an optional extra. They're not extras. They're just uh they're…",
+        "video_id": "g-92X4uxSM0",
+        "url": "https://www.youtube.com/watch?v=g-92X4uxSM0&t=1773s"
+      },
+      {
+        "topic": "social_space",
+        "start_seconds": 1283,
+        "excerpt": "…as much usable lounging social space. So, just ask the question, what's more important for you? Um, and…",
+        "video_id": "sThX23SNQaI",
+        "url": "https://www.youtube.com/watch?v=sThX23SNQaI&t=1283s"
+      }
+    ]
+  },
+  {
+    "make": "Navan",
+    "model": "C30",
+    "full_name": "Navan C30",
+    "length_feet": 33,
+    "features": {
+      "berths": 2,
+      "day_capacity": 8,
+      "helm": "enclosed",
+      "trailerable": false,
+      "use": "coastal-offshore",
+      "priorities": [
+        "family",
+        "exploring",
+        "mixed-use"
+      ]
+    },
+    "evidence_confidence": 0.85,
+    "audience_percentile": 0.7846,
+    "market_percentile": 0.7333,
+    "watch_out": "As a newer brand, its long-term sold-market evidence is thinner than established alternatives.",
+    "thumbnail": "https://i.ytimg.com/vi/E_6gFmuTcV4/hqdefault.jpg",
+    "videos": [
+      {
+        "type": "Walkthrough",
+        "id": "E_6gFmuTcV4",
+        "title": "NAVAN C30 worthy of attention?... NEW Adventure Boat Brand"
+      },
+      {
+        "type": "Test drive",
+        "id": "M30WCMXfV0U",
+        "title": "EXTRA Weight OK? NAVAN C30 - Test Drive with twin 250Hp Mercury Outboards"
+      }
+    ],
+    "market": {
+      "period_months": 120,
+      "global_sold_count": 5,
+      "median_sold_price_aud": 405383.0,
+      "average_days_on_market": 252.0,
+      "australia_sold_count": 0,
+      "price_basis": "sold_price_aud"
+    },
+    "engagement": {
+      "views": 82680,
+      "comments": 100,
+      "top_comments_captured": 100
+    },
+    "evidence": [
+      {
+        "topic": "weather_protection",
+        "start_seconds": 384,
+        "excerpt": "…that at 25 knots windscreen wipers with a left hand so I don't accidentally hit the throttle so…",
+        "video_id": "M30WCMXfV0U",
+        "url": "https://www.youtube.com/watch?v=M30WCMXfV0U&t=384s"
+      },
+      {
+        "topic": "watersports_access",
+        "start_seconds": 984,
+        "excerpt": "…and flippers and water toys and that sort of stuff that you don't mind keeping wet good professional…",
+        "video_id": "E_6gFmuTcV4",
+        "url": "https://www.youtube.com/watch?v=E_6gFmuTcV4&t=984s"
+      }
+    ]
+  }
+]

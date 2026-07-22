@@ -5,6 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Join the waitlist for Dan's practical boat buyer's guide and help shape what it covers.">
   <meta name="theme-color" content="#5ce2e7">
+  <link rel="canonical" href="https://arav1oli.github.io/dans-boat-life-buyers-guide/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Boat Buyer's Guide | Dan's Boat Life">
+  <meta property="og:description" content="Practical, independent guidance for buyers comparing boats seriously.">
+  <meta property="og:url" content="https://arav1oli.github.io/dans-boat-life-buyers-guide/">
+  <meta property="og:image" content="https://arav1oli.github.io/dans-boat-life-buyers-guide/assets/hero.jpg">
+  <meta name="twitter:card" content="summary_large_image">
   <title>Boat Buyer's Guide | Dan's Boat Life</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -102,6 +109,9 @@
     }
     .button:hover { background: #7cebee; transform: translateY(-2px); }
     .hero-note { margin: 20px 0 0; font-size: 14px; }
+    .hero-actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; }
+    .button.button-outline { border-color: var(--white); background: transparent; color: var(--white); }
+    .button.button-outline:hover { border-color: var(--aqua); background: rgba(0,0,0,.18); }
 
     .facts { background: var(--mid); }
     .facts-grid { display: grid; grid-template-columns: repeat(3, 1fr); }
@@ -150,6 +160,8 @@
     }
     textarea { min-height: 108px; resize: vertical; }
     input:focus, select:focus, textarea:focus { border-color: var(--ink); box-shadow: 0 0 0 3px var(--aqua); }
+    .consent { display: flex; grid-column: 1 / -1; gap: 10px; align-items: flex-start; color: var(--grey); font-size: 13px; font-weight: 400; }
+    .consent input { width: 18px; min-height: 18px; margin: 2px 0 0; flex: 0 0 auto; }
     .form-footer { display: flex; align-items: center; gap: 18px; margin-top: 21px; }
     .form-footer p { margin: 0; color: var(--grey); font-size: 13px; }
     .form-message { margin-top: 20px; padding: 17px; }
@@ -204,7 +216,10 @@
         <p class="eyebrow">Free boat buyer's guide. Coming soon.</p>
         <h1>I'm not here to sell you a boat.<br><span>I'm here to help you understand one.</span></h1>
         <p class="hero-copy">A practical guide for buyers who are comparing boats seriously and want clearer context before committing.</p>
-        <a class="button" href="#waitlist">Join the waitlist</a>
+        <div class="hero-actions">
+          <a class="button" href="#waitlist">Join the waitlist</a>
+          <a class="button button-outline" href="guide/">Preview the Adventure Boat Finder</a>
+        </div>
         <p class="hero-note">No hype. No pressure. Just useful guidance, done properly.</p>
       </div>
     </section>
@@ -264,6 +279,10 @@
                 <input id="phone" name="Phone" type="tel" autocomplete="tel" required>
               </div>
               <div class="field">
+                <label for="country">Country</label>
+                <input id="country" name="Country" type="text" autocomplete="country-name" placeholder="For example: Australia" required>
+              </div>
+              <div class="field">
                 <label for="timing">When are you looking to buy?</label>
                 <select id="timing" name="Buying timeline" required>
                   <option value="">Choose one</option>
@@ -287,6 +306,7 @@
                 <label for="takeaway">What would you most like to take away from the guide?</label>
                 <textarea id="takeaway" name="Guide takeaway" placeholder="Tell Dan what you would like the guide to help you understand" required></textarea>
               </div>
+              <label class="consent"><input name="Marketing consent" type="checkbox" value="Yes"> <span>Keep me posted with relevant guide updates and boat comparisons. I can unsubscribe any time.</span></label>
             </div>
             <div class="form-footer">
               <button class="button" type="submit">Join the waitlist</button>
