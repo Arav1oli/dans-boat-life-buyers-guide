@@ -1,3 +1,5 @@
 window.DBL_GUIDE_CONFIG = {
-  apiBase: ""
+  apiBase: window.location.hostname === "arav1oli.github.io"
+    ? "https://dans-boat-life-guide-api.onrender.com"
+    : ""
 };
