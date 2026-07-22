@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Find the adventure boat that fits how you will actually use it, backed by Dan's walkthroughs and test drives.">
+  <meta name="theme-color" content="#5ce2e7">
+  <meta name="referrer" content="no-referrer">
+  <link rel="canonical" href="https://arav1oli.github.io/dans-boat-life-buyers-guide/guide/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Adventure Boat Finder | Dan's Boat Life">
+  <meta property="og:description" content="Build a practical shortlist backed by Dan's walkthroughs and test drives.">
+  <meta property="og:url" content="https://arav1oli.github.io/dans-boat-life-buyers-guide/guide/">
+  <meta property="og:image" content="https://arav1oli.github.io/dans-boat-life-buyers-guide/assets/hero.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>Adventure Boat Finder | Dan's Boat Life</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&amp;family=Exo:wght@500;600;700;800&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a href="../" class="brand" aria-label="Dan's Boat Life guide waitlist">
+      <img src="../assets/logo.png" alt="Dan's Boat Life">
+    </a>
+    <div class="header-copy">
+      <span class="kicker">Independent buyer guidance</span>
+      <strong>Adventure Boat Finder</strong>
+    </div>
+    <button class="text-button" id="restart-button" type="button">Start again</button>
+  </header>
+
+  <main class="guide-shell">
+    <aside class="decision-panel" aria-label="Your guide decisions">
+      <div class="decision-panel-head">
+        <p class="kicker">Your brief</p>
+        <h2>How you will use the boat</h2>
+        <p>Every answer stays visible. Change one at any time and the shortlist updates.</p>
+      </div>
+      <ol id="decision-list" class="decision-list"></ol>
+      <div class="save-state" id="save-state" role="status" aria-live="polite">
+        <span class="save-dot"></span>
+        <span>Starting your private guide…</span>
+      </div>
+    </aside>
+
+    <section class="guide-main">
+      <div class="progress-wrap" aria-label="Guide progress">
+        <div class="progress-meta"><span id="progress-label">Getting started</span><span id="progress-count">0 of 11</span></div>
+        <div class="progress-track"><div id="progress-bar" class="progress-bar"></div></div>
+      </div>
+
+      <section id="intro-screen" class="screen intro-screen">
+        <p class="kicker">Built from Dan's walkthroughs and test drives</p>
+        <h1>Find the boat that fits the way you actually want to use it.</h1>
+        <p class="lead">No giant comparison table. Answer a few practical questions and get a small, explainable shortlist with direct links to Dan's evidence.</p>
+        <div class="trust-row">
+          <span>Power boats only</span>
+          <span>Independent</span>
+          <span>No paid rankings</span>
+        </div>
+        <button id="start-button" class="primary-button" type="button">Build my shortlist</button>
+        <p class="small-print">Your progress can be saved so you can leave and return later.</p>
+      </section>
+
+      <section id="question-screen" class="screen" hidden>
+        <p class="kicker" id="question-kicker">Your boating</p>
+        <h1 id="question-title"></h1>
+        <p class="lead" id="question-help"></p>
+        <div id="answer-options" class="answer-options"></div>
+        <div class="question-actions">
+          <button id="back-button" class="secondary-button" type="button">Back</button>
+          <button id="skip-button" class="text-button" type="button" hidden>Prefer not to say</button>
+        </div>
+      </section>
+
+      <section id="results-screen" class="screen results-screen" hidden>
+        <p class="kicker">Your evidence-backed shortlist</p>
+        <h1>These are the boats worth looking at first.</h1>
+        <p class="lead">This is decision support, not a declaration of one “perfect” boat. Every result reflects your brief and the available Dan's Boat Life evidence.</p>
+        <div id="result-cards" class="result-cards"></div>
+
+        <div class="email-panel" id="email-panel">
+          <div>
+            <p class="kicker">Keep the full breakdown</p>
+            <h2>Email my guide and save my place</h2>
+            <p>We will send your answers, shortlist, reasons and private resume link.</p>
+          </div>
+          <form id="completion-form">
+            <div class="form-grid">
+              <label>First name<input name="first_name" autocomplete="given-name" required></label>
+              <label>Email<input name="email" type="email" autocomplete="email" required></label>
+              <label>Phone <span>optional</span><input name="phone" type="tel" autocomplete="tel"></label>
+              <label>Country code <span>optional</span><input name="buyer_country_code" maxlength="2" pattern="[A-Za-z]{2}" autocomplete="country" placeholder="AU"></label>
+            </div>
+            <label class="consent"><input name="marketing_consent" type="checkbox"> <span>Yes, send me relevant boat comparisons, guide updates and offers based on what I selected. I can unsubscribe at any time.</span></label>
+            <button class="primary-button" type="submit">Email my full guide</button>
+            <p id="completion-message" class="completion-message" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <template id="decision-template">
+    <li><button type="button"><span class="decision-number"></span><span><strong class="decision-question"></strong><small class="decision-answer"></small></span><span class="edit-label">Edit</span></button></li>
+  </template>
+
+  <template id="result-template">
+    <article class="result-card">
+      <div class="result-image-wrap"><img class="result-image" alt=""><span class="rank-badge"></span></div>
+      <div class="result-body">
+        <div class="result-heading"><div><p class="result-make"></p><h2 class="result-name"></h2></div><span class="match-score"></span></div>
+        <ul class="match-reasons"></ul>
+        <div class="watch-out"><strong>Worth knowing</strong><p></p></div>
+        <div class="transcript-evidence"><strong>Dan's evidence</strong><ul></ul></div>
+        <div class="evidence-links"></div>
+      </div>
+    </article>
+  </template>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
