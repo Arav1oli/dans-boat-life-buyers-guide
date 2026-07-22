@@ -83,6 +83,10 @@ h1, h2, h3 { font-family: "Exo", Arial, sans-serif; line-height: 1.08; }
 .result-name { margin-bottom: 18px; font-size: 31px; }
 .match-score { flex: none; padding: 7px 9px; border-radius: 3px; background: var(--aqua); font-size: 12px; font-weight: 800; }
 .match-reasons { display: grid; gap: 8px; margin: 0 0 22px; padding-left: 20px; }
+.boat-tags { margin: 0 0 18px; }
+.boat-tags > strong { display: block; margin-bottom: 8px; font-size: 13px; }
+.boat-tags ul { display: flex; flex-wrap: wrap; gap: 7px; margin: 0; padding: 0; list-style: none; }
+.boat-tags li { padding: 7px 9px; border: 1px solid var(--line); border-radius: 999px; background: #fff; font-size: 11px; font-weight: 700; }
 .watch-out { padding: 13px 15px; border-left: 4px solid var(--aqua); background: var(--mist); }
 .watch-out strong, .watch-out p { font-size: 13px; }
 .watch-out p { margin: 4px 0 0; color: var(--muted); }

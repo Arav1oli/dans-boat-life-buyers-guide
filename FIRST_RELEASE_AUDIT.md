@@ -26,6 +26,21 @@ Generated from the two supplied Dan's Boat Life power-boat playlists.
 
 No video is automatically publishable unless it has a complete identity and an identity confidence of at least 0.84. The launch catalogue applies a second gate requiring an explicit make/model mention and a transcript for every linked source video.
 
+## Corpus taxonomy and decision fields
+
+- Canonical boats: 209
+- Real boat videos linked to those boats: 398
+- Boat-only transcript segments examined: 53,177
+- Category anchors and transcript-type candidates: 20
+- Structured decision fields: 51
+- Consolidated boat attribute values: 2,275
+- Timestamped attribute evidence rows: 4,548
+- Candidate category assignments: 272
+- Timestamped category evidence rows: 608
+- Uncanonicalised boat rows after consolidation: 0
+
+Dan's supplied Adventure Boats, Fast Explorers, Sport Yachts, Luxury RIBs and Luxury Med Day Boats remain editorial anchors. Additional transcript-type candidates are held for the category workshop. Categories may overlap, and no absent transcript tag is interpreted as a negative feature.
+
 ## Launch catalogue
 
 - Adventure Boats in the first public catalogue: 15
@@ -48,5 +63,6 @@ The sold-boats SQLite database is opened with `mode=ro&immutable=1` and `PRAGMA 
 - Bad resume token rejection verified
 - Completion and email outbox creation verified
 - Desktop and 390 x 844 mobile layouts verified
+- Transcript tags contribute explainable mission-fit reasons without becoming unsupported hard exclusions
 
 SMTP delivery is environment-driven. Without SMTP credentials, completed emails remain safely queued in `email_outbox` for a worker or configured deployment to send.

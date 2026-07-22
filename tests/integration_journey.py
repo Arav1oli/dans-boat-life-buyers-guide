@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 import os
+import time
 import urllib.error
 import urllib.request
 
@@ -10,6 +11,7 @@ import psycopg
 
 BASE = os.getenv("TEST_API_URL", "http://127.0.0.1:8001")
 DATABASE_URL = os.environ["DATABASE_URL"]
+REQUEST_DELAY_SECONDS = float(os.getenv("TEST_REQUEST_DELAY_SECONDS", "0.05"))
 
 
 def request(path: str, method: str = "GET", body=None, token: str | None = None):
@@ -19,7 +21,11 @@ def request(path: str, method: str = "GET", body=None, token: str | None = None)
     payload = json.dumps(body).encode() if body is not None else None
     req = urllib.request.Request(BASE + path, data=payload, headers=headers, method=method)
     with urllib.request.urlopen(req, timeout=15) as response:
-        return response.status, json.loads(response.read())
+        result = response.status, json.loads(response.read())
+    # PGlite's wire adapter is single-user. A short release window keeps this
+    # production-shaped journey deterministic without changing API behaviour.
+    time.sleep(REQUEST_DELAY_SECONDS)
+    return result
 
 
 status, created = request("/api/sessions", "POST")
