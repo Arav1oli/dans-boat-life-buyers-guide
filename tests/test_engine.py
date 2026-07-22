@@ -42,4 +42,16 @@ def test_results_include_evidence_links_and_scoring_breakdown():
     for boat in results:
         assert boat["make"] and boat["model"] and boat["length_feet"]
         assert boat["videos"]
+        assert boat["transcript_attributes"]
         assert set(boat["score_breakdown"]) == {"use_case_fit", "evidence", "audience", "market"}
+
+
+def test_transcript_tags_contribute_explainable_mission_reasons():
+    results = score_boats(answers(overnight="required", water="offshore", priority="exploring"))
+    transcript_reasons = [
+        reason
+        for boat in results
+        for reason in boat["match_reasons"]
+        if reason.startswith("Dan")
+    ]
+    assert transcript_reasons

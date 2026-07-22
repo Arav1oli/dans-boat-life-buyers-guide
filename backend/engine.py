@@ -19,6 +19,22 @@ def _selected(answers: dict[str, Any], key: str) -> str | None:
     return value if isinstance(value, str) else None
 
 
+def _transcript_tag(boat: dict[str, Any], key: str, value_key: str = "primary") -> dict[str, Any] | None:
+    return next(
+        (
+            item
+            for item in boat.get("transcript_attributes", [])
+            if item["key"] == key and item.get("value_key", "primary") == value_key
+        ),
+        None,
+    )
+
+
+def _positive_transcript_tag(boat: dict[str, Any], key: str) -> bool:
+    tag = _transcript_tag(boat, key)
+    return bool(tag and tag.get("value_boolean") is True and float(tag.get("confidence") or 0) >= 0.82)
+
+
 def score_boats(answers: dict[str, Any], limit: int = 5) -> list[dict[str, Any]]:
     scored: list[dict[str, Any]] = []
     overnight = _selected(answers, "overnight")
@@ -76,20 +92,40 @@ def score_boats(answers: dict[str, Any], limit: int = 5) -> list[dict[str, Any]]
                 score += 10
                 reasons.append("Falls inside your preferred length range")
 
+        transcript_reasons: list[str] = []
+        if overnight in {"required", "optional"} and _positive_transcript_tag(boat, "overnight_capable"):
+            score += 3
+            transcript_reasons.append("Dan explicitly discusses overnight use")
+        if storage == "trailer" and _positive_transcript_tag(boat, "trailerable"):
+            score += 3
+            transcript_reasons.append("Dan explicitly discusses trailering")
+        if water == "offshore" and _positive_transcript_tag(boat, "offshore_capable"):
+            score += 3
+            transcript_reasons.append("Dan explicitly discusses offshore capability")
+        mission_tag = {
+            "family": "family_suitable",
+            "fishing": "fishing_suitable",
+            "watersports": "watersports_suitable",
+            "exploring": "long_range_suitable",
+        }.get(priority or "")
+        if mission_tag and _positive_transcript_tag(boat, mission_tag):
+            score += 3
+            transcript_reasons.append("Dan's transcript directly supports your main mission")
+
         evidence = float(boat["evidence_confidence"])
         audience = float(boat["audience_percentile"])
         market = float(boat.get("market_percentile") or 0.5)
-        final = min(score / 92.0, 1.0) * 0.55 + evidence * 0.20 + audience * 0.15 + market * 0.10
+        final = min(score / 104.0, 1.0) * 0.55 + evidence * 0.20 + audience * 0.15 + market * 0.10
         scored.append({
             **boat,
             "total_score": round(final, 5),
             "score_breakdown": {
-                "use_case_fit": round(min(score / 92.0, 1.0), 4),
+                "use_case_fit": round(min(score / 104.0, 1.0), 4),
                 "evidence": evidence,
                 "audience": audience,
                 "market": market,
             },
-            "match_reasons": reasons[:3],
+            "match_reasons": (transcript_reasons + reasons)[:3],
         })
 
     scored.sort(key=lambda item: item["total_score"], reverse=True)

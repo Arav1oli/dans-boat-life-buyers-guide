@@ -61,7 +61,389 @@
         "video_id": "dBlL3uhwcxg",
         "url": "https://www.youtube.com/watch?v=dBlL3uhwcxg&t=613s"
       }
-    ]
+    ],
+    "transcript_attributes": [
+      {
+        "key": "air_conditioning",
+        "label": "Air conditioning",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.92,
+        "evidence": [
+          {
+            "video_id": "AIFykW7Q6UU",
+            "start_seconds": 492,
+            "excerpt": "...in most conditions, if you didn't have the boat fitted with air conditioning and you wanted to have fresh air, it's not...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=AIFykW7Q6UU&t=492s"
+          },
+          {
+            "video_id": "dBlL3uhwcxg",
+            "start_seconds": 725,
+            "excerpt": "boat, uh, yes, you could put air conditioning in a generator on this if you wish, but you can crack that open,...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=dBlL3uhwcxg&t=725s"
+          }
+        ]
+      },
+      {
+        "key": "bow_thruster",
+        "label": "Bow thruster",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.96,
+        "evidence": [
+          {
+            "video_id": "dBlL3uhwcxg",
+            "start_seconds": 432,
+            "excerpt": "flood light. We've got an electric variable speed bow thruster, which because we have the Yamaha 250s, and",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=dBlL3uhwcxg&t=432s"
+          },
+          {
+            "video_id": "dBlL3uhwcxg",
+            "start_seconds": 440,
+            "excerpt": "...the head heading hold, essentially an autopilot, we can operate this boat in joystick mode, and it talks to the bow thruster.",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=dBlL3uhwcxg&t=440s"
+          }
+        ]
+      },
+      {
+        "key": "cabins",
+        "label": "Cabins",
+        "value_key": "primary",
+        "value_number": 2.0,
+        "value_boolean": null,
+        "value_text": null,
+        "unit": "count",
+        "confidence": 0.95,
+        "evidence": [
+          {
+            "video_id": "dBlL3uhwcxg",
+            "start_seconds": 59,
+            "excerpt": "walkound decks, amazing construction, super high quality, two cabins, and a separate toilet with a shower. It's a",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=dBlL3uhwcxg&t=59s"
+          },
+          {
+            "video_id": "AIFykW7Q6UU",
+            "start_seconds": 186,
+            "excerpt": "...been trying to take advantage of that. Um, remember we're carrying two cabins. A proper real cabin and a toilet down there...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=AIFykW7Q6UU&t=186s"
+          }
+        ]
+      },
+      {
+        "key": "drive_type",
+        "label": "Drive type",
+        "value_key": "outboard",
+        "value_number": null,
+        "value_boolean": null,
+        "value_text": "outboard",
+        "unit": null,
+        "confidence": 0.94,
+        "evidence": [
+          {
+            "video_id": "dBlL3uhwcxg",
+            "start_seconds": 74,
+            "excerpt": "You can get it with a single diesel stern drive or two outboard powered uh",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=dBlL3uhwcxg&t=74s"
+          },
+          {
+            "video_id": "dBlL3uhwcxg",
+            "start_seconds": 686,
+            "excerpt": "That's going to be taking heat, I'd say, from uh I'd say on the outboard powers.",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=dBlL3uhwcxg&t=686s"
+          }
+        ]
+      },
+      {
+        "key": "drive_type",
+        "label": "Drive type",
+        "value_key": "shaft",
+        "value_number": null,
+        "value_boolean": null,
+        "value_text": "shaft",
+        "unit": null,
+        "confidence": 0.95,
+        "evidence": [
+          {
+            "video_id": "AIFykW7Q6UU",
+            "start_seconds": 1651,
+            "excerpt": "...maybe the Nimbus 305. Um but just remember that's a single shaft drive diesel and it will do half the speed. So...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=AIFykW7Q6UU&t=1651s"
+          }
+        ]
+      },
+      {
+        "key": "drive_type",
+        "label": "Drive type",
+        "value_key": "sterndrive",
+        "value_number": null,
+        "value_boolean": null,
+        "value_text": "sterndrive",
+        "unit": null,
+        "confidence": 0.94,
+        "evidence": [
+          {
+            "video_id": "dBlL3uhwcxg",
+            "start_seconds": 74,
+            "excerpt": "You can get it with a single diesel stern drive or two outboard powered uh",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=dBlL3uhwcxg&t=74s"
+          }
+        ]
+      },
+      {
+        "key": "engine_count",
+        "label": "Engine count",
+        "value_key": "primary",
+        "value_number": 1.0,
+        "value_boolean": null,
+        "value_text": null,
+        "unit": "count",
+        "confidence": 0.93,
+        "evidence": [
+          {
+            "video_id": "dBlL3uhwcxg",
+            "start_seconds": 74,
+            "excerpt": "You can get it with a single diesel stern drive or two outboard powered uh",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=dBlL3uhwcxg&t=74s"
+          }
+        ]
+      },
+      {
+        "key": "engine_power_hp",
+        "label": "Engine power",
+        "value_key": "primary",
+        "value_number": 300.0,
+        "value_boolean": null,
+        "value_text": null,
+        "unit": "hp",
+        "confidence": 0.89,
+        "evidence": [
+          {
+            "video_id": "dBlL3uhwcxg",
+            "start_seconds": 80,
+            "excerpt": "250 horsepower Yamahas or 300 horsepower Yamahas. My name is Dan Jones. You're",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=dBlL3uhwcxg&t=80s"
+          },
+          {
+            "video_id": "dBlL3uhwcxg",
+            "start_seconds": 80,
+            "excerpt": "250 horsepower Yamahas or 300 horsepower Yamahas. My name is Dan Jones. You're",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=dBlL3uhwcxg&t=80s"
+          }
+        ]
+      },
+      {
+        "key": "fuel_capacity_l",
+        "label": "Fuel capacity",
+        "value_key": "primary",
+        "value_number": 25.0,
+        "value_boolean": null,
+        "value_text": null,
+        "unit": "L",
+        "confidence": 0.93,
+        "evidence": [
+          {
+            "video_id": "dBlL3uhwcxg",
+            "start_seconds": 1525,
+            "excerpt": "This is the diesel tank. I'm going to guess that that is about 25 L maybe,",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=dBlL3uhwcxg&t=1525s"
+          }
+        ]
+      },
+      {
+        "key": "galley",
+        "label": "Galley",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.9,
+        "evidence": [
+          {
+            "video_id": "dBlL3uhwcxg",
+            "start_seconds": 617,
+            "excerpt": "And another one just here. But this is actually also the galley. So if you pop",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=dBlL3uhwcxg&t=617s"
+          }
+        ]
+      },
+      {
+        "key": "generator",
+        "label": "Generator",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.93,
+        "evidence": [
+          {
+            "video_id": "dBlL3uhwcxg",
+            "start_seconds": 725,
+            "excerpt": "boat, uh, yes, you could put air conditioning in a generator on this if you wish, but you can crack that open,...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=dBlL3uhwcxg&t=725s"
+          }
+        ]
+      },
+      {
+        "key": "hull_form",
+        "label": "Hull form",
+        "value_key": "rib",
+        "value_number": null,
+        "value_boolean": null,
+        "value_text": "rib",
+        "unit": null,
+        "confidence": 0.95,
+        "evidence": [
+          {
+            "video_id": "dBlL3uhwcxg",
+            "start_seconds": 143,
+            "excerpt": "...at us today when we're driving around on this boat. You don't get that on a sexy rib. and I have been",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=dBlL3uhwcxg&t=143s"
+          }
+        ]
+      },
+      {
+        "key": "joystick_control",
+        "label": "Joystick control",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.94,
+        "evidence": [
+          {
+            "video_id": "AIFykW7Q6UU",
+            "start_seconds": 1337,
+            "excerpt": "...the motors. So you just got to get used to the joystick system. Don't go practicing it um close to other boats...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=AIFykW7Q6UU&t=1337s"
+          }
+        ]
+      },
+      {
+        "key": "opening_sunroof",
+        "label": "Opening sunroof",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.93,
+        "evidence": [
+          {
+            "video_id": "dBlL3uhwcxg",
+            "start_seconds": 189,
+            "excerpt": "cabin downstairs. We've got the light bar up top, VHF aerial, opening sunroof.",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=dBlL3uhwcxg&t=189s"
+          }
+        ]
+      },
+      {
+        "key": "overnight_capable",
+        "label": "Overnight capable",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.86,
+        "evidence": [
+          {
+            "video_id": "dBlL3uhwcxg",
+            "start_seconds": 863,
+            "excerpt": "So, how good's this? It's a proper overnight cabin. You could potentially argue that this is the master instead of",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=dBlL3uhwcxg&t=863s"
+          },
+          {
+            "video_id": "dBlL3uhwcxg",
+            "start_seconds": 894,
+            "excerpt": "little locker for just your overnight things. And then the step actually also",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=dBlL3uhwcxg&t=894s"
+          }
+        ]
+      },
+      {
+        "key": "premium_styling",
+        "label": "Premium / striking styling",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.82,
+        "evidence": [
+          {
+            "video_id": "dBlL3uhwcxg",
+            "start_seconds": 143,
+            "excerpt": "...at us today when we're driving around on this boat. You don't get that on a sexy rib. and I have been",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=dBlL3uhwcxg&t=143s"
+          },
+          {
+            "video_id": "dBlL3uhwcxg",
+            "start_seconds": 151,
+            "excerpt": "driving sexy ribs this week. You get a different sort of appreciation, different crowd. And I I get the feeling that the...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=dBlL3uhwcxg&t=151s"
+          }
+        ]
+      },
+      {
+        "key": "trailerable",
+        "label": "Trailerable",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.89,
+        "evidence": [
+          {
+            "video_id": "AIFykW7Q6UU",
+            "start_seconds": 1014,
+            "excerpt": "...see in some of the footage I took when we were on the trailer. Very interesting. See you in the next location....",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=AIFykW7Q6UU&t=1014s"
+          },
+          {
+            "video_id": "AIFykW7Q6UU",
+            "start_seconds": 1400,
+            "excerpt": "...We will go from here uh to putting the boat up on the trailer and I think it's time we give you...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=AIFykW7Q6UU&t=1400s"
+          }
+        ]
+      }
+    ],
+    "candidate_categories": []
   },
   {
     "make": "Sargo",
@@ -125,7 +507,375 @@
         "video_id": "qtSn8sfeSBI",
         "url": "https://www.youtube.com/watch?v=qtSn8sfeSBI&t=2099s"
       }
-    ]
+    ],
+    "transcript_attributes": [
+      {
+        "key": "air_conditioning",
+        "label": "Air conditioning",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.92,
+        "evidence": [
+          {
+            "video_id": "msCELOAmCbU",
+            "start_seconds": 549,
+            "excerpt": "Obviously we have air conditioning as well. Um so you can really pick the climate for you. Um I'm going to open",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=msCELOAmCbU&t=549s"
+          },
+          {
+            "video_id": "qtSn8sfeSBI",
+            "start_seconds": 581,
+            "excerpt": "your main shore power, but because we have air conditioning which runs off the gen set, you actually can uh plug in...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=qtSn8sfeSBI&t=581s"
+          }
+        ]
+      },
+      {
+        "key": "cabins",
+        "label": "Cabins",
+        "value_key": "primary",
+        "value_number": 3.0,
+        "value_boolean": null,
+        "value_text": null,
+        "unit": "count",
+        "confidence": 0.93,
+        "evidence": [
+          {
+            "video_id": "qtSn8sfeSBI",
+            "start_seconds": 80,
+            "excerpt": "that could be managed solo or short-handed. Two cabins with the option of three cabins, two toilets, two",
+            "qualifier": "optional",
+            "url": "https://www.youtube.com/watch?v=qtSn8sfeSBI&t=80s"
+          },
+          {
+            "video_id": "qtSn8sfeSBI",
+            "start_seconds": 80,
+            "excerpt": "that could be managed solo or short-handed. Two cabins with the option of three cabins, two toilets, two",
+            "qualifier": "optional",
+            "url": "https://www.youtube.com/watch?v=qtSn8sfeSBI&t=80s"
+          }
+        ]
+      },
+      {
+        "key": "crew_cabin",
+        "label": "Crew cabin",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.96,
+        "evidence": [
+          {
+            "video_id": "qtSn8sfeSBI",
+            "start_seconds": 1449,
+            "excerpt": "...as well go down to this cabin. This is potentially the crew cabin. Uh, because this is a this is a three...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=qtSn8sfeSBI&t=1449s"
+          }
+        ]
+      },
+      {
+        "key": "drive_type",
+        "label": "Drive type",
+        "value_key": "ips-pod",
+        "value_number": null,
+        "value_boolean": null,
+        "value_text": "ips-pod",
+        "unit": null,
+        "confidence": 0.98,
+        "evidence": [
+          {
+            "video_id": "msCELOAmCbU",
+            "start_seconds": 51,
+            "excerpt": "...to get rid of that cuz that was flickering on the camera. Uh, okay. So, we've got the IPS 650s. That's 480",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=msCELOAmCbU&t=51s"
+          },
+          {
+            "video_id": "msCELOAmCbU",
+            "start_seconds": 408,
+            "excerpt": "the aft, I would assume, and creating less drag. You match that with an IPS system, which is nice and level and",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=msCELOAmCbU&t=408s"
+          }
+        ]
+      },
+      {
+        "key": "drive_type",
+        "label": "Drive type",
+        "value_key": "sterndrive",
+        "value_number": null,
+        "value_boolean": null,
+        "value_text": "sterndrive",
+        "unit": null,
+        "confidence": 0.96,
+        "evidence": [
+          {
+            "video_id": "msCELOAmCbU",
+            "start_seconds": 60,
+            "excerpt": "1 minutehorsepower. You can get stern drives if you wish. We've got 2,000 L tankage on this one. Standard is 1,800. And...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=msCELOAmCbU&t=60s"
+          },
+          {
+            "video_id": "qtSn8sfeSBI",
+            "start_seconds": 499,
+            "excerpt": "...you've got the IPS version, you can't do this with the stern drives, but you can store some ball fenders down here....",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=qtSn8sfeSBI&t=499s"
+          }
+        ]
+      },
+      {
+        "key": "dynamic_positioning",
+        "label": "Dynamic positioning",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.94,
+        "evidence": [
+          {
+            "video_id": "msCELOAmCbU",
+            "start_seconds": 1022,
+            "excerpt": "boat in. We do have the cover off the wing station should it be necessary. DPS dynamic positioning system is available",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=msCELOAmCbU&t=1022s"
+          },
+          {
+            "video_id": "qtSn8sfeSBI",
+            "start_seconds": 1199,
+            "excerpt": "the boat in like this or press DPS, which holds the boat in position and then move after the wing station down",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=qtSn8sfeSBI&t=1199s"
+          }
+        ]
+      },
+      {
+        "key": "family_suitable",
+        "label": "Family suitable",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.85,
+        "evidence": [
+          {
+            "video_id": "qtSn8sfeSBI",
+            "start_seconds": 1601,
+            "excerpt": "one to go for because it really does lend itself to being a real family boat.",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=qtSn8sfeSBI&t=1601s"
+          }
+        ]
+      },
+      {
+        "key": "fuel_capacity_l",
+        "label": "Fuel capacity",
+        "value_key": "primary",
+        "value_number": 100.0,
+        "value_boolean": null,
+        "value_text": null,
+        "unit": "L",
+        "confidence": 0.93,
+        "evidence": [
+          {
+            "video_id": "msCELOAmCbU",
+            "start_seconds": 557,
+            "excerpt": "...now and then let's open that back door and just check out the noise levels at 22 knots. That's 100 L fuel",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=msCELOAmCbU&t=557s"
+          }
+        ]
+      },
+      {
+        "key": "galley",
+        "label": "Galley",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.9,
+        "evidence": [
+          {
+            "video_id": "qtSn8sfeSBI",
+            "start_seconds": 734,
+            "excerpt": "engine room light, deck wash, table lift just there, and the galley is super",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=qtSn8sfeSBI&t=734s"
+          },
+          {
+            "video_id": "qtSn8sfeSBI",
+            "start_seconds": 818,
+            "excerpt": "the galley? Have enough space. All of this is actually quite customizable. So, for those of you Aussies who are going to...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=qtSn8sfeSBI&t=818s"
+          }
+        ]
+      },
+      {
+        "key": "generator",
+        "label": "Generator",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.93,
+        "evidence": [
+          {
+            "video_id": "qtSn8sfeSBI",
+            "start_seconds": 1621,
+            "excerpt": "...gauges. And then we've got uh short ship to shore with generator um just in [snorts] here. And then we've got pencil",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=qtSn8sfeSBI&t=1621s"
+          }
+        ]
+      },
+      {
+        "key": "hydraulic_swim_platform",
+        "label": "Hydraulic swim platform",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.96,
+        "evidence": [
+          {
+            "video_id": "qtSn8sfeSBI",
+            "start_seconds": 618,
+            "excerpt": "that'll serve as an eskie. This is where you operate the hydraulic platform from.",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=qtSn8sfeSBI&t=618s"
+          }
+        ]
+      },
+      {
+        "key": "long_range_suitable",
+        "label": "Long-range suitable",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.91,
+        "evidence": [
+          {
+            "video_id": "qtSn8sfeSBI",
+            "start_seconds": 30,
+            "excerpt": "walkound decks. Really, really great access, long range capabilities and",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=qtSn8sfeSBI&t=30s"
+          }
+        ]
+      },
+      {
+        "key": "max_observed_speed_knots",
+        "label": "Maximum observed speed",
+        "value_key": "primary",
+        "value_number": 24.0,
+        "value_boolean": null,
+        "value_text": null,
+        "unit": "kn",
+        "confidence": 0.89,
+        "evidence": [
+          {
+            "video_id": "msCELOAmCbU",
+            "start_seconds": 1253,
+            "excerpt": "sleep whilst doing 24 knots in the ocean through waves in that aft cabin or in",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=msCELOAmCbU&t=1253s"
+          }
+        ]
+      },
+      {
+        "key": "offshore_capable",
+        "label": "Offshore capable",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.88,
+        "evidence": [
+          {
+            "video_id": "qtSn8sfeSBI",
+            "start_seconds": 284,
+            "excerpt": "...would have thought green would look so cool, but in this blue water here in Greece, it looks fantastic. Um, we got...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=qtSn8sfeSBI&t=284s"
+          }
+        ]
+      },
+      {
+        "key": "opening_sunroof",
+        "label": "Opening sunroof",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.93,
+        "evidence": [
+          {
+            "video_id": "msCELOAmCbU",
+            "start_seconds": 539,
+            "excerpt": "...they still also going to appreciate the views. I've got glass all you know above me opening sunroof if I wanted ventilation.",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=msCELOAmCbU&t=539s"
+          }
+        ]
+      },
+      {
+        "key": "separate_shower",
+        "label": "Separate shower",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.94,
+        "evidence": [
+          {
+            "video_id": "qtSn8sfeSBI",
+            "start_seconds": 1725,
+            "excerpt": "head is this one because it's a much wider setup. This particular one, we're going into a full-on separate shower.",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=qtSn8sfeSBI&t=1725s"
+          }
+        ]
+      },
+      {
+        "key": "watersports_suitable",
+        "label": "Watersports suitable",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.87,
+        "evidence": [
+          {
+            "video_id": "qtSn8sfeSBI",
+            "start_seconds": 793,
+            "excerpt": "...in in that sort of scenario. Oh, someone's coming to give us a hard time about anchoring uh near the water sports.",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=qtSn8sfeSBI&t=793s"
+          }
+        ]
+      }
+    ],
+    "candidate_categories": []
   },
   {
     "make": "Quarken",
@@ -188,6 +938,244 @@
         "excerpt": "…18 knots I'm going into the waves right now fuel flow of 51 l I've got the trim…",
         "video_id": "uSxsWpCpmiM",
         "url": "https://www.youtube.com/watch?v=uSxsWpCpmiM&t=73s"
+      }
+    ],
+    "transcript_attributes": [
+      {
+        "key": "air_conditioning",
+        "label": "Air conditioning",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.92,
+        "evidence": [
+          {
+            "video_id": "uSxsWpCpmiM",
+            "start_seconds": 117,
+            "excerpt": "hle excuse me coughing spluttering I've come down with another cold after 20 hours of traveling and air conditioning",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=uSxsWpCpmiM&t=117s"
+          },
+          {
+            "video_id": "A0Qo_iP2xPw",
+            "start_seconds": 154,
+            "excerpt": "...20 hours on an airplane yesterday to get here and the air conditioning has just made me sick again so there you...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=A0Qo_iP2xPw&t=154s"
+          }
+        ]
+      },
+      {
+        "key": "bow_thruster",
+        "label": "Bow thruster",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.96,
+        "evidence": [
+          {
+            "video_id": "A0Qo_iP2xPw",
+            "start_seconds": 680,
+            "excerpt": "...this is the anchor operation up and down this is the bow thruster which we have used and it's pretty effective and...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=A0Qo_iP2xPw&t=680s"
+          },
+          {
+            "video_id": "A0Qo_iP2xPw",
+            "start_seconds": 1237,
+            "excerpt": "...screwed down so I'm guessing there's tank Edge and batteries for bow thruster and the bow thruster itself underneath there because but...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=A0Qo_iP2xPw&t=1237s"
+          }
+        ]
+      },
+      {
+        "key": "cruise_speed_knots",
+        "label": "Cruise speed",
+        "value_key": "primary",
+        "value_number": 29.5,
+        "value_boolean": null,
+        "value_text": null,
+        "unit": "kn",
+        "confidence": 0.95,
+        "evidence": [
+          {
+            "video_id": "uSxsWpCpmiM",
+            "start_seconds": 471,
+            "excerpt": "here it's going to get you to your destination at reasonable speeds look at that a 29 knot cruising speed that's",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=uSxsWpCpmiM&t=471s"
+          },
+          {
+            "video_id": "A0Qo_iP2xPw",
+            "start_seconds": 1329,
+            "excerpt": "...well but you could still do your 43 knots and your 30 knot cruising speed and go out in the ocean and...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=A0Qo_iP2xPw&t=1329s"
+          }
+        ]
+      },
+      {
+        "key": "dry_ride",
+        "label": "Dry ride",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.87,
+        "evidence": [
+          {
+            "video_id": "uSxsWpCpmiM",
+            "start_seconds": 103,
+            "excerpt": "below it's a dry ride you know here we are going into swrs getting almost fully",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=uSxsWpCpmiM&t=103s"
+          }
+        ]
+      },
+      {
+        "key": "engine_power_hp",
+        "label": "Engine power",
+        "value_key": "primary",
+        "value_number": 300.0,
+        "value_boolean": null,
+        "value_text": null,
+        "unit": "hp",
+        "confidence": 0.89,
+        "evidence": [
+          {
+            "video_id": "uSxsWpCpmiM",
+            "start_seconds": 33,
+            "excerpt": "so single 300 horsepower is the option it's a Yamaha on the quarin this brand",
+            "qualifier": "optional",
+            "url": "https://www.youtube.com/watch?v=uSxsWpCpmiM&t=33s"
+          },
+          {
+            "video_id": "uSxsWpCpmiM",
+            "start_seconds": 527,
+            "excerpt": "throttle 300 horsepower Yamaha I'm getting 40 1/2 I'm going to",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=uSxsWpCpmiM&t=527s"
+          }
+        ]
+      },
+      {
+        "key": "family_suitable",
+        "label": "Family suitable",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.85,
+        "evidence": [
+          {
+            "video_id": "A0Qo_iP2xPw",
+            "start_seconds": 496,
+            "excerpt": "...are pretty moderate this isn't the raciest of boats I'm going to describe this as like a conservative family boat if you're",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=A0Qo_iP2xPw&t=496s"
+          },
+          {
+            "video_id": "A0Qo_iP2xPw",
+            "start_seconds": 527,
+            "excerpt": "conservative family boat if you're someone who wants to take your wife and kids out and you know they don't want to...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=A0Qo_iP2xPw&t=527s"
+          }
+        ]
+      },
+      {
+        "key": "max_observed_speed_knots",
+        "label": "Maximum observed speed",
+        "value_key": "primary",
+        "value_number": 35.8,
+        "value_boolean": null,
+        "value_text": null,
+        "unit": "kn",
+        "confidence": 0.89,
+        "evidence": [
+          {
+            "video_id": "uSxsWpCpmiM",
+            "start_seconds": 510,
+            "excerpt": "now I'm at 35.8 knots 4,700 in Flat Water now we've left the",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=uSxsWpCpmiM&t=510s"
+          }
+        ]
+      },
+      {
+        "key": "opening_sunroof",
+        "label": "Opening sunroof",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.93,
+        "evidence": [
+          {
+            "video_id": "A0Qo_iP2xPw",
+            "start_seconds": 710,
+            "excerpt": "...lights forward of that and this massive excuse me a massive opening sunroof which slides quite easily because we did do that...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=A0Qo_iP2xPw&t=710s"
+          }
+        ]
+      },
+      {
+        "key": "overnight_capable",
+        "label": "Overnight capable",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.86,
+        "evidence": [
+          {
+            "video_id": "A0Qo_iP2xPw",
+            "start_seconds": 124,
+            "excerpt": "...seeing here it's not just a communal boat it's definitely an overnight boat for two people and a day boat for five...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=A0Qo_iP2xPw&t=124s"
+          },
+          {
+            "video_id": "A0Qo_iP2xPw",
+            "start_seconds": 1329,
+            "excerpt": "...if you're just going out with you and a partner for overnight you're going to have the best times and if you're...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=A0Qo_iP2xPw&t=1329s"
+          }
+        ]
+      }
+    ],
+    "candidate_categories": [
+      {
+        "key": "walkaround-day-boat",
+        "label": "Walkaround Day Boats",
+        "confidence": 0.87,
+        "evidence": [
+          {
+            "video_id": "A0Qo_iP2xPw",
+            "start_seconds": 124,
+            "excerpt": "...boat it's definitely an overnight boat for two people and a day boat for five people comfortably yes you could get more...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=A0Qo_iP2xPw&t=124s"
+          },
+          {
+            "video_id": "A0Qo_iP2xPw",
+            "start_seconds": 1206,
+            "excerpt": "...this toilet it's going to going to be in in the day boat function but you do you and you've even got...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=A0Qo_iP2xPw&t=1206s"
+          }
+        ]
       }
     ]
   },
@@ -253,6 +1241,178 @@
         "video_id": "jl4y-Up6djE",
         "url": "https://www.youtube.com/watch?v=jl4y-Up6djE&t=462s"
       }
+    ],
+    "transcript_attributes": [
+      {
+        "key": "dry_ride",
+        "label": "Dry ride",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.87,
+        "evidence": [
+          {
+            "video_id": "jl4y-Up6djE",
+            "start_seconds": 141,
+            "excerpt": "and away so it's quite a dry ride now we also have a rub rail going all the way around the boat...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=jl4y-Up6djE&t=141s"
+          }
+        ]
+      },
+      {
+        "key": "engine_count",
+        "label": "Engine count",
+        "value_key": "primary",
+        "value_number": 2.0,
+        "value_boolean": null,
+        "value_text": null,
+        "unit": "count",
+        "confidence": 0.93,
+        "evidence": [
+          {
+            "video_id": "jl4y-Up6djE",
+            "start_seconds": 415,
+            "excerpt": "going to help your life um because yes we've got twin engines throttles and a bath Thruster but now this Joy joystick",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=jl4y-Up6djE&t=415s"
+          }
+        ]
+      },
+      {
+        "key": "engine_power_hp",
+        "label": "Engine power",
+        "value_key": "primary",
+        "value_number": 350.0,
+        "value_boolean": null,
+        "value_text": null,
+        "unit": "hp",
+        "confidence": 0.89,
+        "evidence": [
+          {
+            "video_id": "KPB5EYSyx84",
+            "start_seconds": 45,
+            "excerpt": "...there but welcome to Palm Beach uh welcome to Twin Yamaha 350 horsepower test we're going to be going straight out in...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=KPB5EYSyx84&t=45s"
+          }
+        ]
+      },
+      {
+        "key": "galley",
+        "label": "Galley",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.9,
+        "evidence": [
+          {
+            "video_id": "jl4y-Up6djE",
+            "start_seconds": 533,
+            "excerpt": "and do things so if you're working The Summer Kitchen The Galley look at all this space that we've got here remember",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=jl4y-Up6djE&t=533s"
+          }
+        ]
+      },
+      {
+        "key": "joystick_control",
+        "label": "Joystick control",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.94,
+        "evidence": [
+          {
+            "video_id": "KPB5EYSyx84",
+            "start_seconds": 599,
+            "excerpt": "...let's just have a play with that now uh on the joystick control itself so I'm on level two at the moment...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=KPB5EYSyx84&t=599s"
+          }
+        ]
+      },
+      {
+        "key": "overnight_capable",
+        "label": "Overnight capable",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.86,
+        "evidence": [
+          {
+            "video_id": "jl4y-Up6djE",
+            "start_seconds": 974,
+            "excerpt": "bed so this actually slides out the back rest becomes the bed and it's another sleeping accommodation probably suitable",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=jl4y-Up6djE&t=974s"
+          }
+        ]
+      },
+      {
+        "key": "watersports_suitable",
+        "label": "Watersports suitable",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.87,
+        "evidence": [
+          {
+            "video_id": "jl4y-Up6djE",
+            "start_seconds": 1096,
+            "excerpt": "to for you um also if you're doing a lot of water sports it might be easier to rig up surfboards and...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=jl4y-Up6djE&t=1096s"
+          }
+        ]
+      }
+    ],
+    "candidate_categories": [
+      {
+        "key": "sports-cruiser",
+        "label": "Sports Cruisers",
+        "confidence": 0.99,
+        "evidence": [
+          {
+            "video_id": "jl4y-Up6djE",
+            "start_seconds": 1,
+            "excerpt": "have you got an American style Sports Cruiser or do you perhaps have a a French boat a Cabin boat something like",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=jl4y-Up6djE&t=1s"
+          },
+          {
+            "video_id": "jl4y-Up6djE",
+            "start_seconds": 99,
+            "excerpt": "asking what is different about a boat like this compared to your traditional American Sports Cruiser hul so what is",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=jl4y-Up6djE&t=99s"
+          }
+        ]
+      },
+      {
+        "key": "walkaround-day-boat",
+        "label": "Walkaround Day Boats",
+        "confidence": 0.87,
+        "evidence": [
+          {
+            "video_id": "jl4y-Up6djE",
+            "start_seconds": 68,
+            "excerpt": "...boats this is the Miami Vibes this is the um summer day boat which is also going to be suitable for other",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=jl4y-Up6djE&t=68s"
+          }
+        ]
+      }
     ]
   },
   {
@@ -316,6 +1476,171 @@
         "excerpt": "…And definitely for a family, you're going to have good comfortable day trips. If you got mom, dad,…",
         "video_id": "ZFmsJBLbkGc",
         "url": "https://www.youtube.com/watch?v=ZFmsJBLbkGc&t=313s"
+      }
+    ],
+    "transcript_attributes": [
+      {
+        "key": "beam_feet",
+        "label": "Beam",
+        "value_key": "primary",
+        "value_number": 32.0,
+        "value_boolean": null,
+        "value_text": null,
+        "unit": "ft",
+        "confidence": 0.93,
+        "evidence": [
+          {
+            "video_id": "ZFmsJBLbkGc",
+            "start_seconds": 335,
+            "excerpt": "access but not necessarily in this beam and length because we are only 32 feet remember. So just consider that we've",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=ZFmsJBLbkGc&t=335s"
+          }
+        ]
+      },
+      {
+        "key": "bow_thruster",
+        "label": "Bow thruster",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.96,
+        "evidence": [
+          {
+            "video_id": "ZFmsJBLbkGc",
+            "start_seconds": 535,
+            "excerpt": "We've got the bow thruster immediately next to the throttles. I like how the throttles are set back away from the wheel...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=ZFmsJBLbkGc&t=535s"
+          },
+          {
+            "video_id": "RWGPhqUbPww",
+            "start_seconds": 701,
+            "excerpt": "...So, just factor that in. Um, let's just play with the transverse thrust. We've blown the fuse on the bow thruster, so",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=RWGPhqUbPww&t=701s"
+          }
+        ]
+      },
+      {
+        "key": "cruise_speed_knots",
+        "label": "Cruise speed",
+        "value_key": "primary",
+        "value_number": 31.5,
+        "value_boolean": null,
+        "value_text": null,
+        "unit": "kn",
+        "confidence": 0.93,
+        "evidence": [
+          {
+            "video_id": "RWGPhqUbPww",
+            "start_seconds": 141,
+            "excerpt": "...these joystick trim tab systems on these boats. Okay. And just cruising along at 26 knots there. Uh hopefully you can see...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=RWGPhqUbPww&t=141s"
+          },
+          {
+            "video_id": "RWGPhqUbPww",
+            "start_seconds": 302,
+            "excerpt": "off at a fast cruise downwind, we're still doing 37 knot SG at 5,200 RPM and consuming 112 L an hour. Let's...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=RWGPhqUbPww&t=302s"
+          }
+        ]
+      },
+      {
+        "key": "folding_balconies",
+        "label": "Folding balconies / terraces",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.94,
+        "evidence": [
+          {
+            "video_id": "ZFmsJBLbkGc",
+            "start_seconds": 93,
+            "excerpt": "drop down terrace. You've got the lock and then you do down and up on both port and starboard. So, it's a...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=ZFmsJBLbkGc&t=93s"
+          }
+        ]
+      },
+      {
+        "key": "max_observed_speed_knots",
+        "label": "Maximum observed speed",
+        "value_key": "primary",
+        "value_number": 37.0,
+        "value_boolean": null,
+        "value_text": null,
+        "unit": "kn",
+        "confidence": 0.89,
+        "evidence": [
+          {
+            "video_id": "RWGPhqUbPww",
+            "start_seconds": 302,
+            "excerpt": "off at a fast cruise downwind, we're still doing 37 knot SG at 5,200 RPM and consuming 112 L an hour. Let's...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=RWGPhqUbPww&t=302s"
+          }
+        ]
+      },
+      {
+        "key": "opening_sunroof",
+        "label": "Opening sunroof",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.93,
+        "evidence": [
+          {
+            "video_id": "ZFmsJBLbkGc",
+            "start_seconds": 825,
+            "excerpt": "sliding opening sunroof that uh obviously allows sun and ventilation, but it also keeps the center of gravity",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=ZFmsJBLbkGc&t=825s"
+          }
+        ]
+      },
+      {
+        "key": "premium_styling",
+        "label": "Premium / striking styling",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.82,
+        "evidence": [
+          {
+            "video_id": "ZFmsJBLbkGc",
+            "start_seconds": 935,
+            "excerpt": "...the gas strut and the whole thing retracts into the front of the boat to give you a sexy looking bow and",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=ZFmsJBLbkGc&t=935s"
+          }
+        ]
+      }
+    ],
+    "candidate_categories": [
+      {
+        "key": "weekender-commuter",
+        "label": "Weekenders / Commuters",
+        "confidence": 0.91,
+        "evidence": [
+          {
+            "video_id": "ZFmsJBLbkGc",
+            "start_seconds": 1027,
+            "excerpt": "Yeah, you could totally use this as a weekender for a couple. We've got the ventilation through these two hatches here. You...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=ZFmsJBLbkGc&t=1027s"
+          }
+        ]
       }
     ]
   },
@@ -381,6 +1706,216 @@
         "video_id": "2JMin4bt_co",
         "url": "https://www.youtube.com/watch?v=2JMin4bt_co&t=967s"
       }
+    ],
+    "transcript_attributes": [
+      {
+        "key": "air_conditioning",
+        "label": "Air conditioning",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.92,
+        "evidence": [
+          {
+            "video_id": "vhNIpnQP78o",
+            "start_seconds": 1343,
+            "excerpt": "eventually switch on the heating or the air conditioning and you do you, which is what I love about this design. I...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=vhNIpnQP78o&t=1343s"
+          },
+          {
+            "video_id": "vhNIpnQP78o",
+            "start_seconds": 830,
+            "excerpt": "Those vents here, here, and here will demyist this when you need. But you can option this boat with air conditioning.",
+            "qualifier": "optional",
+            "url": "https://www.youtube.com/watch?v=vhNIpnQP78o&t=830s"
+          }
+        ]
+      },
+      {
+        "key": "bow_thruster",
+        "label": "Bow thruster",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.96,
+        "evidence": [
+          {
+            "video_id": "2JMin4bt_co",
+            "start_seconds": 506,
+            "excerpt": "...side slip her in. So, I've got my wheel down to starboard and I'm just using the bow thruster. This boat's got",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=2JMin4bt_co&t=506s"
+          },
+          {
+            "video_id": "2JMin4bt_co",
+            "start_seconds": 537,
+            "excerpt": "using the bow thruster. This boat's got some fenders. Oh, not boat. This dock has some fenders on the side. See how...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=2JMin4bt_co&t=537s"
+          }
+        ]
+      },
+      {
+        "key": "engine_count",
+        "label": "Engine count",
+        "value_key": "primary",
+        "value_number": 2.0,
+        "value_boolean": null,
+        "value_text": null,
+        "unit": "count",
+        "confidence": 0.95,
+        "evidence": [
+          {
+            "video_id": "2JMin4bt_co",
+            "start_seconds": 998,
+            "excerpt": "...afraid to take this boat offshore and beat up a few waves, particularly with the twin engine redundancy. Um, so yeah, I'm",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=2JMin4bt_co&t=998s"
+          },
+          {
+            "video_id": "vhNIpnQP78o",
+            "start_seconds": 1359,
+            "excerpt": "...solo operator. A boat that you could do some serious coastal cruising with the twin engines for redundancy. So that's just fantastic.",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=vhNIpnQP78o&t=1359s"
+          }
+        ]
+      },
+      {
+        "key": "family_suitable",
+        "label": "Family suitable",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.85,
+        "evidence": [
+          {
+            "video_id": "vhNIpnQP78o",
+            "start_seconds": 1128,
+            "excerpt": "...It could be a day boat. It could be a couple's boat. It could be a family boat. There's there's many, many",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=vhNIpnQP78o&t=1128s"
+          }
+        ]
+      },
+      {
+        "key": "folding_balconies",
+        "label": "Folding balconies / terraces",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.94,
+        "evidence": [
+          {
+            "video_id": "vhNIpnQP78o",
+            "start_seconds": 94,
+            "excerpt": "You can see on both sides on port and port and starboard we have these beautiful big drop down wings and they",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=vhNIpnQP78o&t=94s"
+          }
+        ]
+      },
+      {
+        "key": "fuel_capacity_l",
+        "label": "Fuel capacity",
+        "value_key": "primary",
+        "value_number": 490.0,
+        "value_boolean": null,
+        "value_text": null,
+        "unit": "L",
+        "confidence": 0.93,
+        "evidence": [
+          {
+            "video_id": "vhNIpnQP78o",
+            "start_seconds": 577,
+            "excerpt": "underneath us here. The fuel tank, it's 490 L. a aluminium construction, aluminum construction, and you can get",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=vhNIpnQP78o&t=577s"
+          }
+        ]
+      },
+      {
+        "key": "joystick_control",
+        "label": "Joystick control",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.94,
+        "evidence": [
+          {
+            "video_id": "vhNIpnQP78o",
+            "start_seconds": 759,
+            "excerpt": "This is adjustable with this particular boat has got the joystick system and the bow thruster. We're running the zip",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=vhNIpnQP78o&t=759s"
+          }
+        ]
+      },
+      {
+        "key": "overnight_capable",
+        "label": "Overnight capable",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.86,
+        "evidence": [
+          {
+            "video_id": "vhNIpnQP78o",
+            "start_seconds": 928,
+            "excerpt": "you're just a couple and you want to sleep on board, but you tell me. Got reading lights in there and there....",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=vhNIpnQP78o&t=928s"
+          }
+        ]
+      },
+      {
+        "key": "walkaround_decks",
+        "label": "Walkaround decks",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.91,
+        "evidence": [
+          {
+            "video_id": "vhNIpnQP78o",
+            "start_seconds": 1350,
+            "excerpt": "really love the walkaround access and the doors, double doors on either side from the helm station. So from an",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=vhNIpnQP78o&t=1350s"
+          }
+        ]
+      }
+    ],
+    "candidate_categories": [
+      {
+        "key": "walkaround-day-boat",
+        "label": "Walkaround Day Boats",
+        "confidence": 0.87,
+        "evidence": [
+          {
+            "video_id": "vhNIpnQP78o",
+            "start_seconds": 1128,
+            "excerpt": "commuter. It could be a day boat. It could be a couple's boat. It could be a family boat. There's there's many,...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=vhNIpnQP78o&t=1128s"
+          }
+        ]
+      }
     ]
   },
   {
@@ -444,6 +1979,121 @@
         "excerpt": "…of rope and fender arrangement holders just there you know i can even see people putting extra fuel…",
         "video_id": "THflbBzWyHs",
         "url": "https://www.youtube.com/watch?v=THflbBzWyHs&t=429s"
+      }
+    ],
+    "transcript_attributes": [
+      {
+        "key": "air_conditioning",
+        "label": "Air conditioning",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.92,
+        "evidence": [
+          {
+            "video_id": "uPYOOcinUPI",
+            "start_seconds": 896,
+            "excerpt": "just do air conditioning so everybody favors the cabin Styles like this because they want to be able to sit inside in...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=uPYOOcinUPI&t=896s"
+          },
+          {
+            "video_id": "uPYOOcinUPI",
+            "start_seconds": 888,
+            "excerpt": "want to think about air conditioning as an option and I know you know what the guys in Dubai for example they...",
+            "qualifier": "optional",
+            "url": "https://www.youtube.com/watch?v=uPYOOcinUPI&t=888s"
+          }
+        ]
+      },
+      {
+        "key": "bow_thruster",
+        "label": "Bow thruster",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.96,
+        "evidence": [
+          {
+            "video_id": "uPYOOcinUPI",
+            "start_seconds": 773,
+            "excerpt": "you got the Lumar bow thruster just here the windscreen wipers here anchor windlass up and down on the port side so",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=uPYOOcinUPI&t=773s"
+          }
+        ]
+      },
+      {
+        "key": "drive_type",
+        "label": "Drive type",
+        "value_key": "outboard",
+        "value_number": null,
+        "value_boolean": null,
+        "value_text": "outboard",
+        "unit": null,
+        "confidence": 0.94,
+        "evidence": [
+          {
+            "video_id": "uPYOOcinUPI",
+            "start_seconds": 1249,
+            "excerpt": "...that's going to just stop any water buildup in your fuel and modern outboard sensors are really sensitive to that so they'll",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=uPYOOcinUPI&t=1249s"
+          }
+        ]
+      },
+      {
+        "key": "engine_power_hp",
+        "label": "Engine power",
+        "value_key": "primary",
+        "value_number": 450.0,
+        "value_boolean": null,
+        "value_text": null,
+        "unit": "hp",
+        "confidence": 0.91,
+        "evidence": [
+          {
+            "video_id": "9VZt_ccx39E",
+            "start_seconds": 94,
+            "excerpt": "that 300 horsepower on this EXO Defender eight this is the new model from Exo a full Cabin boat we've got a...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=9VZt_ccx39E&t=94s"
+          },
+          {
+            "video_id": "9VZt_ccx39E",
+            "start_seconds": 124,
+            "excerpt": "...and I got 31 knots you can do up to a 450 horsepower on this Hull so if you're that way inclined...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=9VZt_ccx39E&t=124s"
+          }
+        ]
+      }
+    ],
+    "candidate_categories": [
+      {
+        "key": "weekender-commuter",
+        "label": "Weekenders / Commuters",
+        "confidence": 0.93,
+        "evidence": [
+          {
+            "video_id": "uPYOOcinUPI",
+            "start_seconds": 94,
+            "excerpt": "...in Finland finished brand commuter I'm going to call this a commuter boat for those of you who aren't familiar with the...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=uPYOOcinUPI&t=94s"
+          },
+          {
+            "video_id": "9VZt_ccx39E",
+            "start_seconds": 587,
+            "excerpt": "...see this boat fitting into the market well it's clearly a commuter boat it's clearly going to be suitable for people who...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=9VZt_ccx39E&t=587s"
+          }
+        ]
       }
     ]
   },
@@ -509,6 +2159,152 @@
         "video_id": "n2PPCH0oexo",
         "url": "https://www.youtube.com/watch?v=n2PPCH0oexo&t=632s"
       }
+    ],
+    "transcript_attributes": [
+      {
+        "key": "bow_thruster",
+        "label": "Bow thruster",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.96,
+        "evidence": [
+          {
+            "video_id": "5cRvxg5HEmk",
+            "start_seconds": 327,
+            "excerpt": "...lower. And then underneath the floor here is access into the bow thruster tunnel. We also have the water tank and the...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=5cRvxg5HEmk&t=327s"
+          },
+          {
+            "video_id": "5cRvxg5HEmk",
+            "start_seconds": 727,
+            "excerpt": "...multi-function. And all of our primary boat systems are accessible via the switches here. Anchor windless up and down. Bow thruster just",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=5cRvxg5HEmk&t=727s"
+          }
+        ]
+      },
+      {
+        "key": "drive_type",
+        "label": "Drive type",
+        "value_key": "outboard",
+        "value_number": null,
+        "value_boolean": null,
+        "value_text": "outboard",
+        "unit": null,
+        "confidence": 0.94,
+        "evidence": [
+          {
+            "video_id": "5cRvxg5HEmk",
+            "start_seconds": 2,
+            "excerpt": "modern lightweight outboard engines combined with super slippery clever hull designs. So, what can an aluminium hull do for you that a...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=5cRvxg5HEmk&t=2s"
+          }
+        ]
+      },
+      {
+        "key": "drive_type",
+        "label": "Drive type",
+        "value_key": "sterndrive",
+        "value_number": null,
+        "value_boolean": null,
+        "value_text": "sterndrive",
+        "unit": null,
+        "confidence": 0.94,
+        "evidence": [
+          {
+            "video_id": "n2PPCH0oexo",
+            "start_seconds": 489,
+            "excerpt": "drive a lot of inboard Stern drives back in the day those numbers would be a lot different to this you know...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=n2PPCH0oexo&t=489s"
+          }
+        ]
+      },
+      {
+        "key": "engine_power_hp",
+        "label": "Engine power",
+        "value_key": "primary",
+        "value_number": 400.0,
+        "value_boolean": null,
+        "value_text": null,
+        "unit": "hp",
+        "confidence": 0.89,
+        "evidence": [
+          {
+            "video_id": "5cRvxg5HEmk",
+            "start_seconds": 203,
+            "excerpt": "boat's combined with the Mercury V10 400 horsepower. I'm a huge fan of these new engines because all these modern boats with...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=5cRvxg5HEmk&t=203s"
+          },
+          {
+            "video_id": "5cRvxg5HEmk",
+            "start_seconds": 1130,
+            "excerpt": "...cool. We've got this powder coated black aluminum for towing skiers, which is pretty cool. And the V10, 400 horsepower. Love this",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=5cRvxg5HEmk&t=1130s"
+          }
+        ]
+      },
+      {
+        "key": "premium_styling",
+        "label": "Premium / striking styling",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.82,
+        "evidence": [
+          {
+            "video_id": "5cRvxg5HEmk",
+            "start_seconds": 665,
+            "excerpt": "...a lot of headroom here because the T-top, whilst still looking sexy, my that's my arm fully outstretched, I'm only just touching...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=5cRvxg5HEmk&t=665s"
+          }
+        ]
+      },
+      {
+        "key": "watersports_suitable",
+        "label": "Watersports suitable",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.87,
+        "evidence": [
+          {
+            "video_id": "n2PPCH0oexo",
+            "start_seconds": 859,
+            "excerpt": "then combining it with your water sports whether you're going to be putting skis or foiling boards or surfboards on board",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=n2PPCH0oexo&t=859s"
+          }
+        ]
+      }
+    ],
+    "candidate_categories": [
+      {
+        "key": "bowrider-runabout",
+        "label": "Bowriders / Runabouts",
+        "confidence": 0.95,
+        "evidence": [
+          {
+            "video_id": "5cRvxg5HEmk",
+            "start_seconds": 296,
+            "excerpt": "...[laughter] think that's the idea. And the bow lounge or the bow rider area is one of the most protected that you...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=5cRvxg5HEmk&t=296s"
+          }
+        ]
+      }
     ]
   },
   {
@@ -572,6 +2368,204 @@
         "excerpt": "…go and have an overnight and out of the islands or maybe you're in Florida and you want…",
         "video_id": "KreIDfMbQU0",
         "url": "https://www.youtube.com/watch?v=KreIDfMbQU0&t=299s"
+      }
+    ],
+    "transcript_attributes": [
+      {
+        "key": "air_conditioning",
+        "label": "Air conditioning",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.92,
+        "evidence": [
+          {
+            "video_id": "167AMX8YtOU",
+            "start_seconds": 67,
+            "excerpt": "...season getting yourself out of the cold wind or into the air conditioning you want those thicker holes the heavier displacement you...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=167AMX8YtOU&t=67s"
+          },
+          {
+            "video_id": "KreIDfMbQU0",
+            "start_seconds": 173,
+            "excerpt": "...in a hot climate I could have the coolness of the air conditioning so just think about that you know if you're...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=KreIDfMbQU0&t=173s"
+          }
+        ]
+      },
+      {
+        "key": "bow_thruster",
+        "label": "Bow thruster",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.89,
+        "evidence": [
+          {
+            "video_id": "ojpJKCcupV8",
+            "start_seconds": 61,
+            "excerpt": "...is optional engine trim down my trim tabs here joystick there bow thruster quite clearly other thing that i noted is the",
+            "qualifier": "optional",
+            "url": "https://www.youtube.com/watch?v=ojpJKCcupV8&t=61s"
+          }
+        ]
+      },
+      {
+        "key": "cruise_speed_knots",
+        "label": "Cruise speed",
+        "value_key": "primary",
+        "value_number": 31.0,
+        "value_boolean": null,
+        "value_text": null,
+        "unit": "kn",
+        "confidence": 0.95,
+        "evidence": [
+          {
+            "video_id": "KreIDfMbQU0",
+            "start_seconds": 495,
+            "excerpt": "...we'll do the right thing um but what an awesome machine cruising speeds of between 27 knots to 37 knots burning from...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=KreIDfMbQU0&t=495s"
+          },
+          {
+            "video_id": "167AMX8YtOU",
+            "start_seconds": 991,
+            "excerpt": "...that in mind I believe her happy place is in that 35 knot cruising speed and consuming somewhere around that 160 liters...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=167AMX8YtOU&t=991s"
+          }
+        ]
+      },
+      {
+        "key": "drive_type",
+        "label": "Drive type",
+        "value_key": "outboard",
+        "value_number": null,
+        "value_boolean": null,
+        "value_text": "outboard",
+        "unit": null,
+        "confidence": 0.94,
+        "evidence": [
+          {
+            "video_id": "167AMX8YtOU",
+            "start_seconds": 496,
+            "excerpt": "...must be happening off inverter I guess because we are an outboard boat we have opening side doors super handy so on...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=167AMX8YtOU&t=496s"
+          }
+        ]
+      },
+      {
+        "key": "fishing_suitable",
+        "label": "Fishing suitable",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.88,
+        "evidence": [
+          {
+            "video_id": "167AMX8YtOU",
+            "start_seconds": 435,
+            "excerpt": "...this whole thing all together and do a bit of a fishing setup so yes many of you who are used to...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=167AMX8YtOU&t=435s"
+          }
+        ]
+      },
+      {
+        "key": "overnight_capable",
+        "label": "Overnight capable",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.86,
+        "evidence": [
+          {
+            "video_id": "KreIDfMbQU0",
+            "start_seconds": 340,
+            "excerpt": "...conditioning go and have a day trip go and have an overnight and out of the islands or maybe you're in Florida...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=KreIDfMbQU0&t=340s"
+          },
+          {
+            "video_id": "KreIDfMbQU0",
+            "start_seconds": 556,
+            "excerpt": "...just you and your partner to have a really really good overnight then I think that's who this Wellcraft 355 has been...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=KreIDfMbQU0&t=556s"
+          }
+        ]
+      },
+      {
+        "key": "premium_styling",
+        "label": "Premium / striking styling",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.82,
+        "evidence": [
+          {
+            "video_id": "KreIDfMbQU0",
+            "start_seconds": 403,
+            "excerpt": "...design um look I think it's necessary because it's such a sexy boat um you do want that lower roof design but...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=KreIDfMbQU0&t=403s"
+          }
+        ]
+      },
+      {
+        "key": "water_capacity_l",
+        "label": "Fresh-water capacity",
+        "value_key": "primary",
+        "value_number": 160.0,
+        "value_boolean": null,
+        "value_text": null,
+        "unit": "L",
+        "confidence": 0.93,
+        "evidence": [
+          {
+            "video_id": "167AMX8YtOU",
+            "start_seconds": 343,
+            "excerpt": "...water in and then the waste out I think there's about 160 liters of water on this one from memory thousand liters...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=167AMX8YtOU&t=343s"
+          }
+        ]
+      }
+    ],
+    "candidate_categories": [
+      {
+        "key": "centre-console",
+        "label": "Centre Consoles",
+        "confidence": 0.98,
+        "evidence": [
+          {
+            "video_id": "ojpJKCcupV8",
+            "start_seconds": 15,
+            "excerpt": "really solid american basically american fishing style center consoles they have been quite clearly",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=ojpJKCcupV8&t=15s"
+          },
+          {
+            "video_id": "167AMX8YtOU",
+            "start_seconds": 1052,
+            "excerpt": "...appeal to so many of you coming out of just pure center consoles but what's going on here we've got our modern...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=167AMX8YtOU&t=1052s"
+          }
+        ]
       }
     ]
   },
@@ -637,6 +2631,173 @@
         "video_id": "LEOWkv5GJ0E",
         "url": "https://www.youtube.com/watch?v=LEOWkv5GJ0E&t=894s"
       }
+    ],
+    "transcript_attributes": [
+      {
+        "key": "cruise_speed_knots",
+        "label": "Cruise speed",
+        "value_key": "primary",
+        "value_number": 24.0,
+        "value_boolean": null,
+        "value_text": null,
+        "unit": "kn",
+        "confidence": 0.93,
+        "evidence": [
+          {
+            "video_id": "BLdD91-MeYQ",
+            "start_seconds": 752,
+            "excerpt": "...acceptable that's totally acceptable so then that means for a fast cruise we have 24 knots I'd say it's probably a sensible...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=BLdD91-MeYQ&t=752s"
+          }
+        ]
+      },
+      {
+        "key": "drive_type",
+        "label": "Drive type",
+        "value_key": "outboard",
+        "value_number": null,
+        "value_boolean": null,
+        "value_text": "outboard",
+        "unit": null,
+        "confidence": 0.94,
+        "evidence": [
+          {
+            "video_id": "LEOWkv5GJ0E",
+            "start_seconds": 215,
+            "excerpt": "...some conditions put the nose on the beach because we're an outboard powered boat you could trim the engine up and get...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=LEOWkv5GJ0E&t=215s"
+          },
+          {
+            "video_id": "LEOWkv5GJ0E",
+            "start_seconds": 894,
+            "excerpt": "...are accessible because the one thing that's going to stop an outboard I assume that's water separator is water in your fuel...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=LEOWkv5GJ0E&t=894s"
+          }
+        ]
+      },
+      {
+        "key": "engine_power_hp",
+        "label": "Engine power",
+        "value_key": "primary",
+        "value_number": 250.0,
+        "value_boolean": null,
+        "value_text": null,
+        "unit": "hp",
+        "confidence": 0.89,
+        "evidence": [
+          {
+            "video_id": "BLdD91-MeYQ",
+            "start_seconds": 346,
+            "excerpt": "...we've got 280 liters of fuel plus we're running the Mercury 250 horsepower on this one we've got the new throttle base...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=BLdD91-MeYQ&t=346s"
+          },
+          {
+            "video_id": "BLdD91-MeYQ",
+            "start_seconds": 535,
+            "excerpt": "...bit 21 knots fuel flow of 37 liters on the single 250 horsepower Mercury I'll bring that speed up going through a...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=BLdD91-MeYQ&t=535s"
+          }
+        ]
+      },
+      {
+        "key": "fuel_capacity_l",
+        "label": "Fuel capacity",
+        "value_key": "primary",
+        "value_number": 300.0,
+        "value_boolean": null,
+        "value_text": null,
+        "unit": "L",
+        "confidence": 0.95,
+        "evidence": [
+          {
+            "video_id": "BLdD91-MeYQ",
+            "start_seconds": 346,
+            "excerpt": "...numbers we're going to 2.1 ton empty and then we've got 280 liters of fuel plus we're running the Mercury 250 horsepower...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=BLdD91-MeYQ&t=346s"
+          },
+          {
+            "video_id": "BLdD91-MeYQ",
+            "start_seconds": 346,
+            "excerpt": "...is going to be 300 plus kilos 300 lead uh you know almost 300 liters of fuel at 280 there plus all",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=BLdD91-MeYQ&t=346s"
+          }
+        ]
+      },
+      {
+        "key": "overnight_capable",
+        "label": "Overnight capable",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.86,
+        "evidence": [
+          {
+            "video_id": "LEOWkv5GJ0E",
+            "start_seconds": 1354,
+            "excerpt": "...think you probably would sleep this way but when you need or when you're not operating the boat as an overnight boat",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=LEOWkv5GJ0E&t=1354s"
+          },
+          {
+            "video_id": "LEOWkv5GJ0E",
+            "start_seconds": 1384,
+            "excerpt": "operating the boat as an overnight boat which I suspect many of you will use this in more of the day function...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=LEOWkv5GJ0E&t=1384s"
+          }
+        ]
+      },
+      {
+        "key": "trailerable",
+        "label": "Trailerable",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.89,
+        "evidence": [
+          {
+            "video_id": "LEOWkv5GJ0E",
+            "start_seconds": 63,
+            "excerpt": "...like it's she's 7.1 something meters she's not very big she's trailerable you could put her in the rack and stack you...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=LEOWkv5GJ0E&t=63s"
+          },
+          {
+            "video_id": "BLdD91-MeYQ",
+            "start_seconds": 595,
+            "excerpt": "...in the walk through separate video to this and so it's trailerable you can rack and stack it you can keep it...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=BLdD91-MeYQ&t=595s"
+          }
+        ]
+      }
+    ],
+    "candidate_categories": [
+      {
+        "key": "walkaround-day-boat",
+        "label": "Walkaround Day Boats",
+        "confidence": 0.87,
+        "evidence": [
+          {
+            "video_id": "LEOWkv5GJ0E",
+            "start_seconds": 1384,
+            "excerpt": "...had up the front if you're just using it as a day boat all of that stuff can actually just Stow up...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=LEOWkv5GJ0E&t=1384s"
+          }
+        ]
+      }
     ]
   },
   {
@@ -700,6 +2861,246 @@
         "excerpt": "…fine now let's go into the waves notice that I'm doing all of this from the sitting position…",
         "video_id": "-HWI25JEFMU",
         "url": "https://www.youtube.com/watch?v=-HWI25JEFMU&t=406s"
+      }
+    ],
+    "transcript_attributes": [
+      {
+        "key": "air_conditioning",
+        "label": "Air conditioning",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.85,
+        "evidence": [
+          {
+            "video_id": "3MrYB-RPxyk",
+            "start_seconds": 1208,
+            "excerpt": "...a little vent here so that's going to I don't know air conditioning or heater option I've got two down lights just...",
+            "qualifier": "optional",
+            "url": "https://www.youtube.com/watch?v=3MrYB-RPxyk&t=1208s"
+          }
+        ]
+      },
+      {
+        "key": "bow_thruster",
+        "label": "Bow thruster",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.96,
+        "evidence": [
+          {
+            "video_id": "3MrYB-RPxyk",
+            "start_seconds": 1542,
+            "excerpt": "...did look underneath me just here we have access into the bow thruster so nothing is hidden from us on this boat...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=3MrYB-RPxyk&t=1542s"
+          }
+        ]
+      },
+      {
+        "key": "cruise_speed_knots",
+        "label": "Cruise speed",
+        "value_key": "primary",
+        "value_number": 27.0,
+        "value_boolean": null,
+        "value_text": null,
+        "unit": "kn",
+        "confidence": 0.93,
+        "evidence": [
+          {
+            "video_id": "3MrYB-RPxyk",
+            "start_seconds": 218,
+            "excerpt": "...just get these motors because the fuel flow is really good cruising around 50 liters an hour speed return 25 27 knots...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=3MrYB-RPxyk&t=218s"
+          }
+        ]
+      },
+      {
+        "key": "drive_type",
+        "label": "Drive type",
+        "value_key": "outboard",
+        "value_number": null,
+        "value_boolean": null,
+        "value_text": "outboard",
+        "unit": null,
+        "confidence": 0.94,
+        "evidence": [
+          {
+            "video_id": "3MrYB-RPxyk",
+            "start_seconds": 156,
+            "excerpt": "...in Australia is going nose up on the beach and with Outboards you can do that and I'll demonstrate where I'll explain...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=3MrYB-RPxyk&t=156s"
+          }
+        ]
+      },
+      {
+        "key": "engine_power_hp",
+        "label": "Engine power",
+        "value_key": "primary",
+        "value_number": 225.0,
+        "value_boolean": null,
+        "value_text": null,
+        "unit": "hp",
+        "confidence": 0.91,
+        "evidence": [
+          {
+            "video_id": "-HWI25JEFMU",
+            "start_seconds": 4,
+            "excerpt": "...it feels like to hook through a turn with a twin 225 horsepower Mercury's currently doing that 21 knots it is the...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=-HWI25JEFMU&t=4s"
+          },
+          {
+            "video_id": "3MrYB-RPxyk",
+            "start_seconds": 187,
+            "excerpt": "...could actually still Wallop that if you had a little had a little boo-boo so we've got the twin 225 horsepower mercs",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=3MrYB-RPxyk&t=187s"
+          }
+        ]
+      },
+      {
+        "key": "overnight_capable",
+        "label": "Overnight capable",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.86,
+        "evidence": [
+          {
+            "video_id": "3MrYB-RPxyk",
+            "start_seconds": 34,
+            "excerpt": "...you're ready for more space maybe you want to do some overnighting you might have kids and see some value and doing...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=3MrYB-RPxyk&t=34s"
+          },
+          {
+            "video_id": "3MrYB-RPxyk",
+            "start_seconds": 1362,
+            "excerpt": "...those like Helly Hansen toiletry style bags so two of you overnight could put your toiletries bags in there you can put...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=3MrYB-RPxyk&t=1362s"
+          }
+        ]
+      },
+      {
+        "key": "top_speed_knots",
+        "label": "Claimed top speed",
+        "value_key": "primary",
+        "value_number": 8.0,
+        "value_boolean": null,
+        "value_text": null,
+        "unit": "kn",
+        "confidence": 0.93,
+        "evidence": [
+          {
+            "video_id": "-HWI25JEFMU",
+            "start_seconds": 192,
+            "excerpt": "give it full speed a little bit of a trim up this I'm getting 8 knots 38 knots and a half not...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=-HWI25JEFMU&t=192s"
+          }
+        ]
+      },
+      {
+        "key": "water_capacity_l",
+        "label": "Fresh-water capacity",
+        "value_key": "primary",
+        "value_number": 100.0,
+        "value_boolean": null,
+        "value_text": null,
+        "unit": "L",
+        "confidence": 0.93,
+        "evidence": [
+          {
+            "video_id": "3MrYB-RPxyk",
+            "start_seconds": 1052,
+            "excerpt": "...could see I've got my water in just there so it's 100 liters of water capacity on this boat and then making...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=3MrYB-RPxyk&t=1052s"
+          }
+        ]
+      }
+    ],
+    "candidate_categories": [
+      {
+        "key": "pilothouse-crossover",
+        "label": "Pilothouse / All-weather Crossovers",
+        "confidence": 0.93,
+        "evidence": [
+          {
+            "video_id": "3MrYB-RPxyk",
+            "start_seconds": 96,
+            "excerpt": "...a second when I go through the cockpit means it's an all-weather boat particularly for a climate like Sydney and basically for...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=3MrYB-RPxyk&t=96s"
+          }
+        ]
+      },
+      {
+        "key": "sports-cruiser",
+        "label": "Sports Cruisers",
+        "confidence": 0.99,
+        "evidence": [
+          {
+            "video_id": "3MrYB-RPxyk",
+            "start_seconds": 34,
+            "excerpt": "...have kids and see some value and doing that whole family together thing well today I'm on a modern day sports Cruiser",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=3MrYB-RPxyk&t=34s"
+          },
+          {
+            "video_id": "-HWI25JEFMU",
+            "start_seconds": 35,
+            "excerpt": "...an adventure boat into something more like what I'm going to call the modern sports Cruiser you're watching Dance boat life my",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=-HWI25JEFMU&t=35s"
+          }
+        ]
+      },
+      {
+        "key": "walkaround-day-boat",
+        "label": "Walkaround Day Boats",
+        "confidence": 0.87,
+        "evidence": [
+          {
+            "video_id": "3MrYB-RPxyk",
+            "start_seconds": 1574,
+            "excerpt": "...boat you really need to take seriously if you love the day boat modern sports Cruiser lifestyle and you see yourself getting...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=3MrYB-RPxyk&t=1574s"
+          }
+        ]
+      },
+      {
+        "key": "weekender-commuter",
+        "label": "Weekenders / Commuters",
+        "confidence": 0.93,
+        "evidence": [
+          {
+            "video_id": "3MrYB-RPxyk",
+            "start_seconds": 440,
+            "excerpt": "...this is what I'm thinking about say you have had that commuter boat um you know how much space you have internally...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=3MrYB-RPxyk&t=440s"
+          },
+          {
+            "video_id": "-HWI25JEFMU",
+            "start_seconds": 528,
+            "excerpt": "...this vessel because some of you who are going to be coming from your commuter boats and walk around decks I think",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=-HWI25JEFMU&t=528s"
+          }
+        ]
       }
     ]
   },
@@ -765,6 +3166,329 @@
         "video_id": "lAF1vzEwB2o",
         "url": "https://www.youtube.com/watch?v=lAF1vzEwB2o&t=997s"
       }
+    ],
+    "transcript_attributes": [
+      {
+        "key": "air_conditioning",
+        "label": "Air conditioning",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.92,
+        "evidence": [
+          {
+            "video_id": "lAF1vzEwB2o",
+            "start_seconds": 733,
+            "excerpt": "this cabin I can close it all up I've got the air conditioning um so I can cool this cabin really good...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=lAF1vzEwB2o&t=733s"
+          }
+        ]
+      },
+      {
+        "key": "bow_thruster",
+        "label": "Bow thruster",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.96,
+        "evidence": [
+          {
+            "video_id": "UOmd3Mt6B1I",
+            "start_seconds": 1150,
+            "excerpt": "...the volvo so it's just got all the volvo gear your bow thruster is below so that's operated with your right hand...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=UOmd3Mt6B1I&t=1150s"
+          }
+        ]
+      },
+      {
+        "key": "drive_type",
+        "label": "Drive type",
+        "value_key": "outboard",
+        "value_number": null,
+        "value_boolean": null,
+        "value_text": "outboard",
+        "unit": null,
+        "confidence": 0.98,
+        "evidence": [
+          {
+            "video_id": "wrpAGMKRv20",
+            "start_seconds": 64,
+            "excerpt": "yeah we're going to find out whether sterndrive or outboard is the best choice for you or at least we'll discover what...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=wrpAGMKRv20&t=64s"
+          },
+          {
+            "video_id": "wrpAGMKRv20",
+            "start_seconds": 72,
+            "excerpt": "between stern drive and outboard on this particular hull shape and then we'll just get a bit of a feel for what...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=wrpAGMKRv20&t=72s"
+          }
+        ]
+      },
+      {
+        "key": "drive_type",
+        "label": "Drive type",
+        "value_key": "sterndrive",
+        "value_number": null,
+        "value_boolean": null,
+        "value_text": "sterndrive",
+        "unit": null,
+        "confidence": 0.98,
+        "evidence": [
+          {
+            "video_id": "wrpAGMKRv20",
+            "start_seconds": 64,
+            "excerpt": "yeah we're going to find out whether sterndrive or outboard is the best choice for you or at least we'll discover what...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=wrpAGMKRv20&t=64s"
+          },
+          {
+            "video_id": "wrpAGMKRv20",
+            "start_seconds": 72,
+            "excerpt": "between stern drive and outboard on this particular hull shape and then we'll just get a bit of a feel for what...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=wrpAGMKRv20&t=72s"
+          }
+        ]
+      },
+      {
+        "key": "dynamic_positioning",
+        "label": "Dynamic positioning",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.94,
+        "evidence": [
+          {
+            "video_id": "lAF1vzEwB2o",
+            "start_seconds": 1379,
+            "excerpt": "around a little bit with the Skyhook so come in and have a look at what we're doing I'll leave the seat...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=lAF1vzEwB2o&t=1379s"
+          },
+          {
+            "video_id": "lAF1vzEwB2o",
+            "start_seconds": 1387,
+            "excerpt": "Skyhook and do a bath Thruster test so I got my bath Thruster on there you go I always like to do...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=lAF1vzEwB2o&t=1387s"
+          }
+        ]
+      },
+      {
+        "key": "engine_power_hp",
+        "label": "Engine power",
+        "value_key": "primary",
+        "value_number": 400.0,
+        "value_boolean": null,
+        "value_text": null,
+        "unit": "hp",
+        "confidence": 0.91,
+        "evidence": [
+          {
+            "video_id": "wrpAGMKRv20",
+            "start_seconds": 88,
+            "excerpt": "the screen now um and that's got the twin 300s and today we're testing uh twin inboard volvo 320 horsepower um so",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=wrpAGMKRv20&t=88s"
+          },
+          {
+            "video_id": "lAF1vzEwB2o",
+            "start_seconds": 462,
+            "excerpt": "...in this boat out in the ocean so we're running the twin V12 400 horsepower so get the boat up and moving",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=lAF1vzEwB2o&t=462s"
+          }
+        ]
+      },
+      {
+        "key": "galley",
+        "label": "Galley",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.9,
+        "evidence": [
+          {
+            "video_id": "UOmd3Mt6B1I",
+            "start_seconds": 1669,
+            "excerpt": "...just here and then we get to quite a neat little galley setup so yeah this is cool we've got a stainless...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=UOmd3Mt6B1I&t=1669s"
+          },
+          {
+            "video_id": "UOmd3Mt6B1I",
+            "start_seconds": 1699,
+            "excerpt": "...sure what that is um and then quite deep and functional galley storage here so remember we've all already got all of...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=UOmd3Mt6B1I&t=1699s"
+          }
+        ]
+      },
+      {
+        "key": "gyro_stabiliser",
+        "label": "Gyro stabiliser",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.96,
+        "evidence": [
+          {
+            "video_id": "lAF1vzEwB2o",
+            "start_seconds": 279,
+            "excerpt": "...on the center line we can put a a gyro a quick gyro on the center line as well and we got...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=lAF1vzEwB2o&t=279s"
+          }
+        ]
+      },
+      {
+        "key": "joystick_control",
+        "label": "Joystick control",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.94,
+        "evidence": [
+          {
+            "video_id": "wrpAGMKRv20",
+            "start_seconds": 625,
+            "excerpt": "...all nimbus helms it's just incredibly well done but i've got joystick steering digital throttles the volvo system and you can rest...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=wrpAGMKRv20&t=625s"
+          }
+        ]
+      },
+      {
+        "key": "long_range_suitable",
+        "label": "Long-range suitable",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.91,
+        "evidence": [
+          {
+            "video_id": "lAF1vzEwB2o",
+            "start_seconds": 1234,
+            "excerpt": "designed for that it's designed for this luxury long range",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=lAF1vzEwB2o&t=1234s"
+          }
+        ]
+      },
+      {
+        "key": "max_observed_speed_knots",
+        "label": "Maximum observed speed",
+        "value_key": "primary",
+        "value_number": 25.0,
+        "value_boolean": null,
+        "value_text": null,
+        "unit": "kn",
+        "confidence": 0.89,
+        "evidence": [
+          {
+            "video_id": "lAF1vzEwB2o",
+            "start_seconds": 997,
+            "excerpt": "speed there we go now I'm at 25 knots these seats are just coming into",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=lAF1vzEwB2o&t=997s"
+          }
+        ]
+      },
+      {
+        "key": "premium_styling",
+        "label": "Premium / striking styling",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.82,
+        "evidence": [
+          {
+            "video_id": "UOmd3Mt6B1I",
+            "start_seconds": 651,
+            "excerpt": "...people here and then captain and a navigator enjoying these amazing sexy seats which we will get to everybody's going to have...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=UOmd3Mt6B1I&t=651s"
+          }
+        ]
+      }
+    ],
+    "candidate_categories": [
+      {
+        "key": "sports-cruiser",
+        "label": "Sports Cruisers",
+        "confidence": 0.97,
+        "evidence": [
+          {
+            "video_id": "UOmd3Mt6B1I",
+            "start_seconds": 963,
+            "excerpt": "...sloped glass like this you imagine the heat load on that sports cruiser style sloped glass it's just epic amount of heat...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=UOmd3Mt6B1I&t=963s"
+          }
+        ]
+      },
+      {
+        "key": "walkaround-day-boat",
+        "label": "Walkaround Day Boats",
+        "confidence": 0.89,
+        "evidence": [
+          {
+            "video_id": "UOmd3Mt6B1I",
+            "start_seconds": 64,
+            "excerpt": "...link coming up in the screen right now that's the epic day boat and this from what i've just discovered and and...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=UOmd3Mt6B1I&t=64s"
+          },
+          {
+            "video_id": "wrpAGMKRv20",
+            "start_seconds": 325,
+            "excerpt": "...the t11 that where you would have seen me driving uh it's a bit more of a day boat going out entertaining",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=wrpAGMKRv20&t=325s"
+          }
+        ]
+      },
+      {
+        "key": "weekender-commuter",
+        "label": "Weekenders / Commuters",
+        "confidence": 0.93,
+        "evidence": [
+          {
+            "video_id": "UOmd3Mt6B1I",
+            "start_seconds": 64,
+            "excerpt": "...this from what i've just discovered and and continuing discover to discover with you is the epic weekender or holiday boat it",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=UOmd3Mt6B1I&t=64s"
+          },
+          {
+            "video_id": "UOmd3Mt6B1I",
+            "start_seconds": 95,
+            "excerpt": "is the epic weekender or holiday boat it really is and i don't know about you like are you thinking what i'm...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=UOmd3Mt6B1I&t=95s"
+          }
+        ]
+      }
     ]
   },
   {
@@ -828,6 +3552,218 @@
         "excerpt": "…bit of movement there through the waves I'm hoping the safety's on",
         "video_id": "ovN1byMhgqE",
         "url": "https://www.youtube.com/watch?v=ovN1byMhgqE&t=335s"
+      }
+    ],
+    "transcript_attributes": [
+      {
+        "key": "air_conditioning",
+        "label": "Air conditioning",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.92,
+        "evidence": [
+          {
+            "video_id": "BTSQvDo-bqY",
+            "start_seconds": 703,
+            "excerpt": "...just great best seat in the house you'll notice we have air conditioning so we got the Gen set we got air...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=BTSQvDo-bqY&t=703s"
+          },
+          {
+            "video_id": "BTSQvDo-bqY",
+            "start_seconds": 948,
+            "excerpt": "...put laptops and things Electronics will go up here I've got air conditioning going forward from here and then we got this...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=BTSQvDo-bqY&t=948s"
+          }
+        ]
+      },
+      {
+        "key": "bow_thruster",
+        "label": "Bow thruster",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.96,
+        "evidence": [
+          {
+            "video_id": "BTSQvDo-bqY",
+            "start_seconds": 793,
+            "excerpt": "...allows you to do B Thruster I've got my key starts my my bow thruster operation like they do on all nimbuses",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=BTSQvDo-bqY&t=793s"
+          }
+        ]
+      },
+      {
+        "key": "cabins",
+        "label": "Cabins",
+        "value_key": "primary",
+        "value_number": 2.0,
+        "value_boolean": null,
+        "value_text": null,
+        "unit": "count",
+        "confidence": 0.93,
+        "evidence": [
+          {
+            "video_id": "BTSQvDo-bqY",
+            "start_seconds": 59,
+            "excerpt": "...boards and the amount of space we have available to us two cabins toilet and a shower um I suspect many of...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=BTSQvDo-bqY&t=59s"
+          },
+          {
+            "video_id": "BTSQvDo-bqY",
+            "start_seconds": 978,
+            "excerpt": "...closer and have a look at this bed because it's a two Cabin boat we got some light switches here at the...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=BTSQvDo-bqY&t=978s"
+          }
+        ]
+      },
+      {
+        "key": "cruise_speed_knots",
+        "label": "Cruise speed",
+        "value_key": "primary",
+        "value_number": 24.0,
+        "value_boolean": null,
+        "value_text": null,
+        "unit": "kn",
+        "confidence": 0.93,
+        "evidence": [
+          {
+            "video_id": "ovN1byMhgqE",
+            "start_seconds": 756,
+            "excerpt": "here 4,600 I've settled in to a cruise speed of 24 knots at 4,600 revs about",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=ovN1byMhgqE&t=756s"
+          }
+        ]
+      },
+      {
+        "key": "drive_type",
+        "label": "Drive type",
+        "value_key": "ips-pod",
+        "value_number": null,
+        "value_boolean": null,
+        "value_text": "ips-pod",
+        "unit": null,
+        "confidence": 0.96,
+        "evidence": [
+          {
+            "video_id": "BTSQvDo-bqY",
+            "start_seconds": 793,
+            "excerpt": "...experience on uh a bigger motor yacht of Shaft or an IPS drive and you can do those Sprints very comfortably at...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=BTSQvDo-bqY&t=793s"
+          }
+        ]
+      },
+      {
+        "key": "drive_type",
+        "label": "Drive type",
+        "value_key": "shaft",
+        "value_number": null,
+        "value_boolean": null,
+        "value_text": "shaft",
+        "unit": null,
+        "confidence": 0.95,
+        "evidence": [
+          {
+            "video_id": "ovN1byMhgqE",
+            "start_seconds": 842,
+            "excerpt": "to okay coming back to our 23 knots again this is where it's replicating like a big diesel shaft drive okay 20",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=ovN1byMhgqE&t=842s"
+          }
+        ]
+      },
+      {
+        "key": "max_observed_speed_knots",
+        "label": "Maximum observed speed",
+        "value_key": "primary",
+        "value_number": 40.0,
+        "value_boolean": null,
+        "value_text": null,
+        "unit": "kn",
+        "confidence": 0.89,
+        "evidence": [
+          {
+            "video_id": "BTSQvDo-bqY",
+            "start_seconds": 1410,
+            "excerpt": "...are done with zippers so it ain't going nowhere when you're doing 40 knots but uh if you need to remove it...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=BTSQvDo-bqY&t=1410s"
+          }
+        ]
+      },
+      {
+        "key": "overnight_capable",
+        "label": "Overnight capable",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.86,
+        "evidence": [
+          {
+            "video_id": "BTSQvDo-bqY",
+            "start_seconds": 1068,
+            "excerpt": "...the cabin if there's two of you or two couples staying overnight and you want some privacy so just put the camera...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=BTSQvDo-bqY&t=1068s"
+          }
+        ]
+      }
+    ],
+    "candidate_categories": [
+      {
+        "key": "luxury-med-day-boat",
+        "label": "Luxury Med Day Boats",
+        "confidence": 0.96,
+        "evidence": [
+          {
+            "video_id": "BTSQvDo-bqY",
+            "start_seconds": 4,
+            "excerpt": "...it's a possible replacement for all of the sports Cruisers the luxury day boats and quite substantial flybridge mots if you're someone...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=BTSQvDo-bqY&t=4s"
+          }
+        ]
+      },
+      {
+        "key": "sports-cruiser",
+        "label": "Sports Cruisers",
+        "confidence": 0.97,
+        "evidence": [
+          {
+            "video_id": "BTSQvDo-bqY",
+            "start_seconds": 4,
+            "excerpt": "...in my opinion it's a possible replacement for all of the sports Cruisers the luxury day boats and quite substantial flybridge mots...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=BTSQvDo-bqY&t=4s"
+          }
+        ]
+      },
+      {
+        "key": "walkaround-day-boat",
+        "label": "Walkaround Day Boats",
+        "confidence": 0.87,
+        "evidence": [
+          {
+            "video_id": "BTSQvDo-bqY",
+            "start_seconds": 4,
+            "excerpt": "...a possible replacement for all of the sports Cruisers the luxury day boats and quite substantial flybridge mots if you're someone that...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=BTSQvDo-bqY&t=4s"
+          }
+        ]
       }
     ]
   },
@@ -893,6 +3829,241 @@
         "video_id": "sThX23SNQaI",
         "url": "https://www.youtube.com/watch?v=sThX23SNQaI&t=1283s"
       }
+    ],
+    "transcript_attributes": [
+      {
+        "key": "air_conditioning",
+        "label": "Air conditioning",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.92,
+        "evidence": [
+          {
+            "video_id": "sThX23SNQaI",
+            "start_seconds": 653,
+            "excerpt": "scenario, that's great. It does immediately make this area hotter. So your choices are air conditioning or",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=sThX23SNQaI&t=653s"
+          },
+          {
+            "video_id": "g-92X4uxSM0",
+            "start_seconds": 691,
+            "excerpt": "are going to need to activate the air conditioning or open a hatch down below to allow some through flow uh with...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=g-92X4uxSM0&t=691s"
+          }
+        ]
+      },
+      {
+        "key": "bow_thruster",
+        "label": "Bow thruster",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.96,
+        "evidence": [
+          {
+            "video_id": "sThX23SNQaI",
+            "start_seconds": 255,
+            "excerpt": "Um, so that's easy. And then let's just have a little go of the bow thruster.",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=sThX23SNQaI&t=255s"
+          },
+          {
+            "video_id": "sThX23SNQaI",
+            "start_seconds": 569,
+            "excerpt": "big circular dial uh bow thruster in the middle and joystick has a different texture even though it's circular. So,",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=sThX23SNQaI&t=569s"
+          }
+        ]
+      },
+      {
+        "key": "cabins",
+        "label": "Cabins",
+        "value_key": "primary",
+        "value_number": 2.0,
+        "value_boolean": null,
+        "value_text": null,
+        "unit": "count",
+        "confidence": 0.93,
+        "evidence": [
+          {
+            "video_id": "g-92X4uxSM0",
+            "start_seconds": 116,
+            "excerpt": "because we got an awesome amount of space. We've got two cabins. We got a toilet, a proper toilet and a shower...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=g-92X4uxSM0&t=116s"
+          }
+        ]
+      },
+      {
+        "key": "folding_balconies",
+        "label": "Folding balconies / terraces",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.94,
+        "evidence": [
+          {
+            "video_id": "g-92X4uxSM0",
+            "start_seconds": 126,
+            "excerpt": "these drop down wings. We got so much extra space just here which goes all the way forward and it completely transforms",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=g-92X4uxSM0&t=126s"
+          }
+        ]
+      },
+      {
+        "key": "opening_sunroof",
+        "label": "Opening sunroof",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.93,
+        "evidence": [
+          {
+            "video_id": "g-92X4uxSM0",
+            "start_seconds": 1275,
+            "excerpt": "another cover that will go over this electric sunroof and if you're in a place like Australia, you should protect it because...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=g-92X4uxSM0&t=1275s"
+          }
+        ]
+      },
+      {
+        "key": "overnight_capable",
+        "label": "Overnight capable",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.86,
+        "evidence": [
+          {
+            "video_id": "g-92X4uxSM0",
+            "start_seconds": 1207,
+            "excerpt": "and tidy cuz you are going to overnight on it. And then this space is only perhaps going to be an occasional...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=g-92X4uxSM0&t=1207s"
+          }
+        ]
+      },
+      {
+        "key": "premium_styling",
+        "label": "Premium / striking styling",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.82,
+        "evidence": [
+          {
+            "video_id": "g-92X4uxSM0",
+            "start_seconds": 1689,
+            "excerpt": "it's cool and it's sexy. Things for you to consider if you are ordering one of these. It's the engines. Uh do...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=g-92X4uxSM0&t=1689s"
+          }
+        ]
+      }
+    ],
+    "candidate_categories": [
+      {
+        "key": "bowrider-runabout",
+        "label": "Bowriders / Runabouts",
+        "confidence": 0.95,
+        "evidence": [
+          {
+            "video_id": "sThX23SNQaI",
+            "start_seconds": 387,
+            "excerpt": "No one's around. Trying not to interfere with other people today. Especially if you see other people on bow riders. It's",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=sThX23SNQaI&t=387s"
+          },
+          {
+            "video_id": "sThX23SNQaI",
+            "start_seconds": 395,
+            "excerpt": "just a little reminder. We saw a couple this morning, you know, on those little Cray uh bow rider styles. really, you",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=sThX23SNQaI&t=395s"
+          }
+        ]
+      },
+      {
+        "key": "centre-console",
+        "label": "Centre Consoles",
+        "confidence": 0.96,
+        "evidence": [
+          {
+            "video_id": "g-92X4uxSM0",
+            "start_seconds": 52,
+            "excerpt": "this is a center console. And this is an awesome dayboat. So, in this video, we're going to do a very deep...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=g-92X4uxSM0&t=52s"
+          },
+          {
+            "video_id": "g-92X4uxSM0",
+            "start_seconds": 1621,
+            "excerpt": "title. It's not replacing fishing center consoles. This is clearly not a fishing boat, nor is it trying to be. Uh, this",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=g-92X4uxSM0&t=1621s"
+          }
+        ]
+      },
+      {
+        "key": "luxury-med-day-boat",
+        "label": "Luxury Med Day Boats",
+        "confidence": 0.96,
+        "evidence": [
+          {
+            "video_id": "g-92X4uxSM0",
+            "start_seconds": 1636,
+            "excerpt": "the past but used it as a luxury day boat. I think it's those people who are going to see great value...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=g-92X4uxSM0&t=1636s"
+          }
+        ]
+      },
+      {
+        "key": "sports-cruiser",
+        "label": "Sports Cruisers",
+        "confidence": 0.97,
+        "evidence": [
+          {
+            "video_id": "g-92X4uxSM0",
+            "start_seconds": 997,
+            "excerpt": "...and it's enough. I know a lot of the American boats uh or your sports cruisers are going to have much bigger,",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=g-92X4uxSM0&t=997s"
+          }
+        ]
+      },
+      {
+        "key": "walkaround-day-boat",
+        "label": "Walkaround Day Boats",
+        "confidence": 0.87,
+        "evidence": [
+          {
+            "video_id": "g-92X4uxSM0",
+            "start_seconds": 1636,
+            "excerpt": "the past but used it as a luxury day boat. I think it's those people who are going to see great value...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=g-92X4uxSM0&t=1636s"
+          }
+        ]
+      }
     ]
   },
   {
@@ -957,6 +4128,118 @@
         "video_id": "E_6gFmuTcV4",
         "url": "https://www.youtube.com/watch?v=E_6gFmuTcV4&t=984s"
       }
-    ]
+    ],
+    "transcript_attributes": [
+      {
+        "key": "bow_thruster",
+        "label": "Bow thruster",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.96,
+        "evidence": [
+          {
+            "video_id": "E_6gFmuTcV4",
+            "start_seconds": 614,
+            "excerpt": "...throttle system for both Motors and then we have the Lumar bow thruster a very nice torky bow thruster on this one...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=E_6gFmuTcV4&t=614s"
+          }
+        ]
+      },
+      {
+        "key": "cruise_speed_knots",
+        "label": "Cruise speed",
+        "value_key": "primary",
+        "value_number": 28.0,
+        "value_boolean": null,
+        "value_text": null,
+        "unit": "kn",
+        "confidence": 0.93,
+        "evidence": [
+          {
+            "video_id": "M30WCMXfV0U",
+            "start_seconds": 505,
+            "excerpt": "...quick boat that'll be 50 knot plus but a 29 KN cruise at 3,800 revs is achievable so actually 28 knots let's...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=M30WCMXfV0U&t=505s"
+          }
+        ]
+      },
+      {
+        "key": "engine_power_hp",
+        "label": "Engine power",
+        "value_key": "primary",
+        "value_number": 600.0,
+        "value_boolean": null,
+        "value_text": null,
+        "unit": "hp",
+        "confidence": 0.91,
+        "evidence": [
+          {
+            "video_id": "M30WCMXfV0U",
+            "start_seconds": 2,
+            "excerpt": "a ton heavier than a lot of the competition rated to 600 horsepower so that's 200 horsepower more than most of the...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=M30WCMXfV0U&t=2s"
+          },
+          {
+            "video_id": "M30WCMXfV0U",
+            "start_seconds": 2,
+            "excerpt": "...a lot of the competition rated to 600 horsepower so that's 200 horsepower more than most of the competition and a hole...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=M30WCMXfV0U&t=2s"
+          }
+        ]
+      },
+      {
+        "key": "max_observed_speed_knots",
+        "label": "Maximum observed speed",
+        "value_key": "primary",
+        "value_number": 30.0,
+        "value_boolean": null,
+        "value_text": null,
+        "unit": "kn",
+        "confidence": 0.89,
+        "evidence": [
+          {
+            "video_id": "M30WCMXfV0U",
+            "start_seconds": 68,
+            "excerpt": "...to 300s acceleration is blisteringly quick you feel that horsepower and I'm at 30 knots we'll just maintain 30 for a bit...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=M30WCMXfV0U&t=68s"
+          },
+          {
+            "video_id": "M30WCMXfV0U",
+            "start_seconds": 195,
+            "excerpt": "...I'm going to go straight into those waves in a second I'm at 20 knots I might even dial back to 18...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=M30WCMXfV0U&t=195s"
+          }
+        ]
+      },
+      {
+        "key": "opening_sunroof",
+        "label": "Opening sunroof",
+        "value_key": "primary",
+        "value_number": null,
+        "value_boolean": true,
+        "value_text": null,
+        "unit": null,
+        "confidence": 0.93,
+        "evidence": [
+          {
+            "video_id": "E_6gFmuTcV4",
+            "start_seconds": 462,
+            "excerpt": "...will find yourself utilizing these and then we've got the glass opening sunroof this one is manually operated so no electrics and...",
+            "qualifier": "observed",
+            "url": "https://www.youtube.com/watch?v=E_6gFmuTcV4&t=462s"
+          }
+        ]
+      }
+    ],
+    "candidate_categories": []
   }
 ]

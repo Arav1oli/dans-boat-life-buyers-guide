@@ -139,6 +139,45 @@ async function chooseAnswer(question, value, label) {
   else { showResults(); }
 }
 
+function transcriptTag(boat, key, valueKey = "primary") {
+  return (boat.transcript_attributes || []).find((item) => item.key === key && (item.value_key || "primary") === valueKey);
+}
+
+function positiveTranscriptTag(boat, key) {
+  const tag = transcriptTag(boat, key);
+  return Boolean(tag && tag.value_boolean === true && Number(tag.confidence || 0) >= .82);
+}
+
+function transcriptProfileChips(boat) {
+  const chips = [];
+  (boat.candidate_categories || [])
+    .filter((item) => Number(item.confidence || 0) >= .90)
+    .slice(0, 2)
+    .forEach((item) => chips.push(item.label));
+  (boat.transcript_attributes || [])
+    .filter((item) => item.key === "drive_type" && Number(item.confidence || 0) >= .90)
+    .slice(0, 2)
+    .forEach((item) => chips.push(item.value_text.replaceAll("-", " ")));
+  [
+    ["top_speed_knots", "Claimed top speed", "kn"],
+    ["max_observed_speed_knots", "Dan observed", "kn"],
+    ["range_nm", "Range", "nm"],
+    ["cabins", "Cabins", ""],
+  ].forEach(([key, label, unit]) => {
+    const item = transcriptTag(boat, key);
+    if (item?.value_number != null) chips.push(label + ": " + item.value_number + (unit ? " " + unit : ""));
+  });
+  [
+    ["offshore_capable", "Offshore discussed"],
+    ["trailerable", "Trailerable discussed"],
+    ["hydraulic_swim_platform", "Hydraulic swim platform"],
+    ["folding_balconies", "Folding balconies"],
+    ["enclosable_cockpit", "Enclosable cockpit"],
+    ["gyro_stabiliser", "Gyro stabiliser"],
+  ].forEach(([key, label]) => { if (positiveTranscriptTag(boat, key)) chips.push(label); });
+  return [...new Set(chips)].slice(0, 7);
+}
+
 function scoreBoats() {
   const a = Object.fromEntries(Object.entries(state.answers).map(([key, answer]) => [key, answer.value]));
   return state.boats.map((boat) => {
@@ -158,8 +197,14 @@ function scoreBoats() {
     if (a.priority && f.priorities.includes(a.priority)) { fit += 18; reasons.push(`Strong fit for ${a.priority.replace("-", " ")} use`); }
     if (a.storage === "trailer" && f.trailerable) { fit += 12; reasons.push("Fits the trailering requirement"); }
     if (a.length) { const [low, high] = a.length.split("-").map(Number); if (boat.length_feet >= low && boat.length_feet <= high) { fit += 10; reasons.push("Inside your preferred length range"); } }
-    const total = Math.min(fit / 92, 1) * .55 + boat.evidence_confidence * .20 + boat.audience_percentile * .15 + boat.market_percentile * .10;
-    return { ...boat, score: total, reasons: reasons.slice(0, 3) };
+    const transcriptReasons = [];
+    if (["required", "optional"].includes(a.overnight) && positiveTranscriptTag(boat, "overnight_capable")) { fit += 3; transcriptReasons.push("Dan explicitly discusses overnight use"); }
+    if (a.storage === "trailer" && positiveTranscriptTag(boat, "trailerable")) { fit += 3; transcriptReasons.push("Dan explicitly discusses trailering"); }
+    if (a.water === "offshore" && positiveTranscriptTag(boat, "offshore_capable")) { fit += 3; transcriptReasons.push("Dan explicitly discusses offshore capability"); }
+    const missionTag = { family: "family_suitable", fishing: "fishing_suitable", watersports: "watersports_suitable", exploring: "long_range_suitable" }[a.priority];
+    if (missionTag && positiveTranscriptTag(boat, missionTag)) { fit += 3; transcriptReasons.push("Dan's transcript directly supports your main mission"); }
+    const total = Math.min(fit / 104, 1) * .55 + boat.evidence_confidence * .20 + boat.audience_percentile * .15 + boat.market_percentile * .10;
+    return { ...boat, score: total, reasons: [...transcriptReasons, ...reasons].slice(0, 3) };
   }).filter(Boolean).sort((x, y) => y.score - x.score).slice(0, 5);
 }
 
@@ -172,6 +217,9 @@ function showResults() {
     card.querySelector(".result-make").textContent = boat.make; card.querySelector(".result-name").textContent = boat.full_name;
     card.querySelector(".match-score").textContent = `${Math.round(boat.score * 100)}% fit`;
     const reasons = card.querySelector(".match-reasons"); boat.reasons.forEach((reason) => { const li = document.createElement("li"); li.textContent = reason; reasons.appendChild(li); });
+    const profile = card.querySelector(".boat-tags"); const profileList = profile.querySelector("ul");
+    transcriptProfileChips(boat).forEach((tag) => { const li = document.createElement("li"); li.textContent = tag; profileList.appendChild(li); });
+    profile.hidden = !profileList.children.length;
     card.querySelector(".watch-out p").textContent = boat.watch_out;
     const transcriptEvidence = card.querySelector(".transcript-evidence");
     const evidenceList = transcriptEvidence.querySelector("ul");

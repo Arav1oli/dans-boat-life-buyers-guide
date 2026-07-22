@@ -47,6 +47,13 @@ PYTHONPATH=. python -m etl.import_saved --sales-db /absolute/path/to/soldboats.s
 PYTHONPATH=. python -m etl.import_launch_catalog --sales-db /absolute/path/to/soldboats.sqlite
 ```
 
+After transcript ingestion, build the corpus-wide category and decision-field candidates, then import them:
+
+    PYTHONPATH=. python -m etl.build_taxonomy_catalog
+    PYTHONPATH=. python -m etl.import_taxonomy
+
+This resolves the 398 real boat videos to 209 canonical boats and stores transcript-evidenced specifications, features, mission tags and overlapping category candidates. Every observation retains its video, timestamp, short excerpt, qualifier and confidence. A missing tag remains unknown; optional or conflicting configurations are not converted into a false yes/no. The workshop paper is in BOAT_TAXONOMY_WORKSHOP.md.
+
 ## Sold-boat data safety
 
 The existing BoatWizard/YachtWorld SQLite file is opened with `mode=ro`, `immutable=1` and `PRAGMA query_only = ON`. The build never scrapes BoatWizard again and never writes to this source. Only controlled model/region aggregates belong in the guide database; sales representative contact fields are excluded.

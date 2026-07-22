@@ -9,6 +9,7 @@ from pathlib import Path
 from etl.evidence import COMPILED, extract_claims
 from etl.matcher import normalise
 from etl.sales import model_summary, readonly_connection
+from etl.taxonomy import ATTRIBUTE_DEFINITIONS, CATEGORY_DEFINITIONS, load_profiles
 
 
 def percentile(value: float, population: list[float]) -> float:
@@ -65,6 +66,44 @@ def claim_quality(claim: dict) -> float:
     return score
 
 
+def public_taxonomy(profile: dict) -> tuple[list[dict], list[dict]]:
+    attribute_labels = {definition.key: definition.label for definition in ATTRIBUTE_DEFINITIONS}
+    category_labels = {definition.key: definition.label for definition in CATEGORY_DEFINITIONS}
+
+    def public_evidence(item: dict) -> dict:
+        start = round(item["start_seconds"])
+        return {
+            "video_id": item["video_id"],
+            "start_seconds": start,
+            "excerpt": item["evidence_text"],
+            "qualifier": item.get("qualifier", "observed"),
+            "url": f"https://www.youtube.com/watch?v={item['video_id']}&t={start}s",
+        }
+
+    attributes = []
+    for value in profile["attributes"]:
+        if value["attribute_key"] == "length_feet":
+            continue
+        attributes.append({
+            "key": value["attribute_key"],
+            "label": attribute_labels[value["attribute_key"]],
+            "value_key": value["value_key"],
+            "value_number": value["value_number"],
+            "value_boolean": value["value_boolean"],
+            "value_text": value["value_text"],
+            "unit": value["unit"],
+            "confidence": value["confidence"],
+            "evidence": [public_evidence(item) for item in value["evidence"][:2]],
+        })
+    categories = [{
+        "key": value["category_key"],
+        "label": category_labels[value["category_key"]],
+        "confidence": value["confidence"],
+        "evidence": [public_evidence(item) for item in value["evidence"][:2]],
+    } for value in profile["categories"]]
+    return attributes, categories
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Validate and enrich the editorial Adventure Boat launch catalogue")
     parser.add_argument("--raw", default="data/raw/youtube")
@@ -76,6 +115,12 @@ def main() -> None:
 
     raw = {path.stem: json.loads(path.read_text()) for path in Path(args.raw).glob("*.json")}
     boats = json.loads(Path(args.boats).read_text())
+    profiles = load_profiles(args.raw)
+    profiles_by_video = {
+        video["id"]: profile
+        for profile in profiles
+        for video in profile["videos"]
+    }
     all_views = [math.log1p(item.get("view_count") or 0) for item in raw.values()]
     all_comments = [math.log1p(item.get("comment_count") or 0) for item in raw.values()]
     failures = []
@@ -114,6 +159,20 @@ def main() -> None:
                 video_items.append(item)
 
             if video_items:
+                taxonomy_profiles = {
+                    profiles_by_video[item["youtube_video_id"]]["canonical_key"]: profiles_by_video[item["youtube_video_id"]]
+                    for item in video_items
+                    if item["youtube_video_id"] in profiles_by_video
+                }
+                if len(taxonomy_profiles) != 1:
+                    failures.append({
+                        "boat": boat["full_name"],
+                        "video_id": ",".join(item["youtube_video_id"] for item in video_items),
+                        "reason": "launch videos do not resolve to one canonical taxonomy profile",
+                    })
+                else:
+                    profile = next(iter(taxonomy_profiles.values()))
+                    boat["transcript_attributes"], boat["candidate_categories"] = public_taxonomy(profile)
                 view_signal = sum(math.log1p(item.get("view_count") or 0) for item in video_items) / len(video_items)
                 comment_signal = sum(math.log1p(item.get("comment_count") or 0) for item in video_items) / len(video_items)
                 boat["audience_percentile"] = round(
